@@ -3,3 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.topbar {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.responsive_check {
+  background: black;
+  color: white;
+  padding: 20px;
+}

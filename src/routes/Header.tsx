@@ -4,17 +4,14 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <div>
-      <div>
+      <div className="topbar">
         {/* logo */}
-        <div></div>
+        <Link to="/">
+          <div></div>
+        </Link>
 
         {/* bar */}
         <div></div>
-
-        <p>header</p>
-        <Link to="/">
-          <h1>헤더입니다.</h1>
-        </Link>
       </div>
     </div>
   );

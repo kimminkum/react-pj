@@ -1,21 +1,31 @@
 import React, { Component } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Main from "./components/Main";
-import Product from "./components/Product";
+import Header from "./routes/Header";
+import Footer from "./routes/Footer";
+import Main from "./routes/Main";
+import Product from "./routes/Product";
+import Nav from "./components/Nav";
 import "./App.css";
-import NotFound from "./components/NotFound";
+import NotFound from "./routes/NotFound";
+import RouterPropsTest from "./routes/RouterPropsTest";
+import RouterPropsResult from "./routes/RouterPropsResult";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Header />
+        <Nav />
         <Routes>
-          <Route path="/" element={<Main />}></Route>
-          <Route path="/product/*" element={<Product />}></Route>
-          {/* 상단에 위치하는 라우트들의 규칙을 모두 확인, 일치하는 라우트가 없는경우 처리 */}
+          <Route path="/" Component={Main}></Route>
+          <Route path="/product/*" Component={Product}></Route>
+
+          <Route path="/routerpropstest" Component={RouterPropsTest}></Route>
+          <Route
+            path="/routerpropsresult"
+            Component={RouterPropsResult}
+          ></Route>
+
           <Route path="*" element={<NotFound />}></Route>
         </Routes>
         <Footer />
