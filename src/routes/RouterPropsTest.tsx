@@ -9,14 +9,7 @@ export default function RouterPropsTest() {
   return (
     <>
       <h1>Router Prop Test</h1>
-      <Link
-        to={{
-          pathname: "/routerpropsresult"
-        }}
-        state={{
-          menu
-        }}
-      >
+      <Link to="/routerpropsresult" state={menu}>
         RouterPropsResult
       </Link>
     </>

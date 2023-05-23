@@ -1,6 +1,9 @@
-export default function RouterPropsResult(props: any) {
-  console.log(props);
-  console.log(props.location);
+import { useLocation } from "react-router-dom";
+
+export default function RouterPropsResult() {
+  const location = useLocation();
+  const data = location.state;
+  console.log(data);
 
   return (
     <>
