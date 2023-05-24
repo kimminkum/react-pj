@@ -1,0 +1,13 @@
+img {
+  width: 100px;
+}
+
+.mb {
+  width: 100%;
+}
+
+.topbar {
+  width: 100%;
+  padding: 20px;
+  align-items: center;
+}
