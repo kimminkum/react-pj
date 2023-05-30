@@ -12,6 +12,11 @@ import RouterPropsResult from "./routes/RouterPropsResult";
 
 const App: React.FC = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [isNavToggle, setIsNavToggle] = useState(false);
+
+  const handleToggle = () => {
+    setIsNavToggle(!isNavToggle);
+  };
 
   useEffect(() => {
     const handleResize = () => {
@@ -28,8 +33,12 @@ const App: React.FC = () => {
     <>
       <div className="App">
         <BrowserRouter>
-          <Header windowWidth={windowWidth} />
-          <Nav />
+          <Header
+            isNavToggle={isNavToggle}
+            onToggle={handleToggle}
+            windowWidth={windowWidth}
+          />
+
           <Routes>
             <Route path="/" Component={Main}></Route>
             <Route path="/product/*" Component={Product}></Route>
@@ -40,6 +49,8 @@ const App: React.FC = () => {
               Component={RouterPropsResult}
             ></Route>
           </Routes>
+
+          {isNavToggle && <Nav></Nav>}
         </BrowserRouter>
       </div>
     </>

@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline: 1px solid red;
+  outline: 0px solid red;
 }
 
 body {
@@ -67,4 +67,11 @@ ul {
 .flex_center {
   display: flex;
   justify-content: center;
+}
+
+/* 정리 */
+
+.navList {
+  border-top: 1px solid #ddd;
+  z-index: 6;
 }

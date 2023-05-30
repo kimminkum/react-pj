@@ -1,13 +1,22 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
+import "../css/Header.css";
+import Nav from "../components/Nav";
 
 import imgLogo from "../image/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-const Header: React.FC<{ windowWidth: number }> = ({ windowWidth }) => {
+interface HeaderProps {
+  windowWidth: number;
+  isNavToggle: boolean;
+  onToggle: () => void;
+}
+
+const Header: React.FC<HeaderProps> = ({ windowWidth, onToggle }) => {
   return (
     <div>
-      <div className="topbar flex_sb">
+      <div className="flex_sb topbar">
         {/* Logo */}
         <Link to="/">
           <div>
@@ -19,13 +28,29 @@ const Header: React.FC<{ windowWidth: number }> = ({ windowWidth }) => {
           {/* pc */}
           {windowWidth > 769 && (
             <div className="flex_end">
-              <div></div>
+              <ul className="pc_nav">
+                <li>
+                  <Link to="/product/*">ABOUT US</Link>
+                </li>
+                <li>
+                  <Link to="/business">BUSINESS</Link>
+                </li>
+                <li>
+                  <Link to="/pr">PR</Link>
+                </li>
+                <li>
+                  <Link to="/careers">CAREERS</Link>
+                </li>
+                <li>
+                  <Link to="/contact">CONTACT</Link>
+                </li>
+              </ul>
             </div>
           )}
 
           {/* mobile */}
           {windowWidth < 768 && (
-            <div>
+            <div className="icons_box" onClick={onToggle}>
               <FontAwesomeIcon icon={faBars} />
             </div>
           )}
