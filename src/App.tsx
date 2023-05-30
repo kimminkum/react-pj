@@ -1,37 +1,49 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import styled from "styled-components";
+import "./App.css";
+
 import Header from "./routes/Header";
-import Footer from "./routes/Footer";
 import Main from "./routes/Main";
 import Product from "./routes/Product";
 import Nav from "./components/Nav";
-import "./App.css";
-import NotFound from "./routes/NotFound";
 import RouterPropsTest from "./routes/RouterPropsTest";
 import RouterPropsResult from "./routes/RouterPropsResult";
 
-function App() {
+const App: React.FC = () => {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
   return (
-    <div className="App">
-      <BrowserRouter>
-        <Header />
-        <Nav />
-        <Routes>
-          <Route path="/" Component={Main}></Route>
-          <Route path="/product/*" Component={Product}></Route>
+    <>
+      <div className="App">
+        <BrowserRouter>
+          <Header windowWidth={windowWidth} />
+          <Nav />
+          <Routes>
+            <Route path="/" Component={Main}></Route>
+            <Route path="/product/*" Component={Product}></Route>
 
-          <Route path="/routerpropstest" Component={RouterPropsTest}></Route>
-          <Route
-            path="/routerpropsresult"
-            Component={RouterPropsResult}
-          ></Route>
-
-          <Route path="*" element={<NotFound />}></Route>
-        </Routes>
-        <Footer />
-      </BrowserRouter>
-    </div>
+            <Route path="/routerpropstest" Component={RouterPropsTest}></Route>
+            <Route
+              path="/routerpropsresult"
+              Component={RouterPropsResult}
+            ></Route>
+          </Routes>
+        </BrowserRouter>
+      </div>
+    </>
   );
-}
+};
 
 export default App;

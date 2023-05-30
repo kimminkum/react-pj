@@ -1,12 +1,10 @@
-import React, { ReactNode } from "react";
 import { Link } from "react-router-dom";
-import "./Header.css";
+
 import imgLogo from "../image/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { useMediaQuery } from "react-responsive";
 
-function Header() {
+const Header: React.FC<{ windowWidth: number }> = ({ windowWidth }) => {
   return (
     <div>
       <div className="topbar flex_sb">
@@ -19,15 +17,22 @@ function Header() {
 
         <div>
           {/* pc */}
-          <div className="flex_end"></div>
+          {windowWidth > 769 && (
+            <div className="flex_end">
+              <div></div>
+            </div>
+          )}
+
           {/* mobile */}
-          <div>
-            <FontAwesomeIcon icon={faBars} />
-          </div>
+          {windowWidth < 768 && (
+            <div>
+              <FontAwesomeIcon icon={faBars} />
+            </div>
+          )}
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default Header;
