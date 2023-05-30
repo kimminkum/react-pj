@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import styled from "styled-components";
 import "./App.css";
@@ -29,6 +29,7 @@ const App: React.FC = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+
   return (
     <>
       <div className="App">
@@ -39,16 +40,21 @@ const App: React.FC = () => {
             windowWidth={windowWidth}
           />
 
-          <Routes>
-            <Route path="/" Component={Main}></Route>
-            <Route path="/product/*" Component={Product}></Route>
+          {!isNavToggle && (
+            <Routes>
+              <Route path="/" Component={Main}></Route>
+              <Route path="/product/*" Component={Product}></Route>
 
-            <Route path="/routerpropstest" Component={RouterPropsTest}></Route>
-            <Route
-              path="/routerpropsresult"
-              Component={RouterPropsResult}
-            ></Route>
-          </Routes>
+              <Route
+                path="/routerpropstest"
+                Component={RouterPropsTest}
+              ></Route>
+              <Route
+                path="/routerpropsresult"
+                Component={RouterPropsResult}
+              ></Route>
+            </Routes>
+          )}
 
           {isNavToggle && <Nav></Nav>}
         </BrowserRouter>

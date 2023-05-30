@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef } from "react";
 import { Link } from "react-router-dom";
 import "../css/Header.css";
 import Nav from "../components/Nav";

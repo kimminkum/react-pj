@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Nav: React.FC = () => {
   return (
-    <>
+    <div>
       <ul className="navList">
         <li>
           <Link to="/">HOME</Link>
@@ -23,7 +23,7 @@ const Nav: React.FC = () => {
           <Link to="/contact">CONTACT</Link>
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 
