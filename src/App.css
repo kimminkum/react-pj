@@ -48,19 +48,6 @@ ul {
   list-style: none;
 }
 
-div[class^="pc"] {
-  display: none;
-}
-div[class^="mb"] {
-  display: inline-block;
-}
-img[class^="pc"] {
-  display: none;
-}
-img[class^="mb"] {
-  display: inline-block;
-}
-
 .flex_start {
   display: flex;
   justify-content: flex-start;
@@ -80,19 +67,4 @@ img[class^="mb"] {
 .flex_center {
   display: flex;
   justify-content: center;
-}
-
-@media screen and (min-width: 767px) {
-  div[class^="pc"] {
-    display: inline-block;
-  }
-  div[class^="mobile"] {
-    display: none;
-  }
-  img[class^="pc"] {
-    display: inline-block;
-  }
-  img[class^="mobile"] {
-    display: none;
-  }
 }
