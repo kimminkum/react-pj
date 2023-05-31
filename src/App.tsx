@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 // import styled from "styled-components";
 import "./App.css";
 
@@ -42,7 +43,10 @@ const App: React.FC = () => {
 
           {!isNavToggle && (
             <Routes>
-              <Route path="/" Component={Main}></Route>
+              <Route
+                path="/"
+                element={<Main windowWidth={windowWidth} />}
+              ></Route>
               <Route path="/product/*" Component={Product}></Route>
 
               <Route

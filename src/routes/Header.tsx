@@ -1,7 +1,5 @@
-import { useRef } from "react";
 import { Link } from "react-router-dom";
 import "../css/Header.css";
-import Nav from "../components/Nav";
 
 import imgLogo from "../image/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

@@ -1,0 +1,79 @@
+.img_box {
+  width: 100%;
+}
+
+.img_box img {
+  width: 100%;
+  height: 92vh;
+}
+
+.banner_box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.txt_box {
+  position: absolute;
+  top: 30%;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  color: white;
+  right: 1%;
+  padding: 0 20px;
+}
+
+.txt_box_mb {
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  color: white;
+  padding: 0 20px;
+}
+
+button {
+  padding: 30px;
+}
+
+/* swiper */
+
+.banner_box .txt_box {
+  position: absolute;
+  top: 30%;
+  left: 20px;
+}
+
+.custom-navigation {
+  position: absolute;
+  width: 140px;
+  display: flex;
+  top: 80%;
+  left: 20vw;
+  z-index: 3;
+}
+
+.custom-prev,
+.custom-next {
+  padding: 23px;
+  background-color: rgba(0, 0, 0, 0.21);
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+}
+
+.custom-prev::after {
+  content: "<";
+  font-size: 2rem;
+  color: white;
+}
+.custom-next::after {
+  content: ">";
+  font-size: 2rem;
+  color: white;
+}
+
+.custom-prev:hover,
+.custom-next:hover {
+  background-color: #555;
+}
