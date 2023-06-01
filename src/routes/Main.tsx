@@ -12,6 +12,8 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
+import MainSectionPc from "../components/MainSectionPc";
+
 interface MainProps {
   windowWidth: number;
 }
@@ -390,13 +392,24 @@ export default class Main extends React.Component<MainProps> {
               </div>
             </SwiperSlide>
           </Swiper>
-          <div className="custom-navigation">
-            <div className="custom-prev"></div>
-            <div className="custom-next"></div>
-          </div>
+
+          {windowWidth > 1201 && (
+            <div className="nav_pc">
+              <div className="custom-navigation">
+                <div className="custom-prev"></div>
+                <div className="custom-next"></div>
+              </div>
+            </div>
+          )}
+          {windowWidth < 1200 && (
+            <div className="custom-navigation nav_mb">
+              <div className="custom-prev"></div>
+              <div className="custom-next"></div>
+            </div>
+          )}
         </div>
 
-        <div className="second_article"></div>
+        <div>{windowWidth > 769 && <MainSectionPc></MainSectionPc>}</div>
 
         <div className=""></div>
       </div>
