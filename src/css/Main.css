@@ -141,14 +141,20 @@
   flex-direction: column;
   max-width: 600px;
   margin: 0 20px;
-  outline: 1px solid red;
+}
+
+.second_article .flex_box_mb {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px 0;
+  margin: 0 auto;
 }
 
 .second_title {
   margin-bottom: 20px;
   height: 150px;
   width: 100%;
-  outline: 1px solid red;
 }
 
 .flex_box > * {

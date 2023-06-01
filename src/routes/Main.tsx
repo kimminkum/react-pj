@@ -13,6 +13,7 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 import MainSectionPc from "../components/MainSectionPc";
+import MainSectionMb from "../components/MainSectionMb";
 
 interface MainProps {
   windowWidth: number;
@@ -409,7 +410,10 @@ export default class Main extends React.Component<MainProps> {
           )}
         </div>
 
-        <div>{windowWidth > 769 && <MainSectionPc></MainSectionPc>}</div>
+        <div>
+          {windowWidth > 769 && <MainSectionPc></MainSectionPc>}
+          {windowWidth < 768 && <MainSectionMb></MainSectionMb>}
+        </div>
 
         <div className=""></div>
       </div>
