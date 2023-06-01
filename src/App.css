@@ -66,9 +66,9 @@ a:hover::after {
 
 button {
   background: none;
-  color: white;
   width: auto;
   border: none;
+  cursor: pointer;
 }
 
 ul {

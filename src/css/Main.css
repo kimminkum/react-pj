@@ -24,16 +24,52 @@
   padding: 0 20px;
 }
 
+.txt_box hr {
+  margin: 40px 0;
+  color: #333;
+  background: #333;
+}
+
+.black_txt {
+  color: black;
+}
+
 .txt_box_mb {
   position: absolute;
   width: 100%;
-  top: 30%;
+  top: 15%;
   color: white;
   padding: 0 20px;
 }
 
-button {
-  padding: 30px;
+.txt_box_mb h2 {
+  margin-bottom: 30px;
+}
+
+.txt_box button {
+  font-size: 1.2rem;
+  margin: 40px 0;
+  padding: 16px;
+  border: 1px solid #eee;
+  color: white;
+}
+
+.txt_box_mb button {
+  margin: 30px 0;
+  padding: 10px 30px;
+  font-size: 1rem;
+  border: 1px solid #eee;
+  color: white;
+}
+
+.txt_box_mb button.black_txt,
+.txt_box button.black_txt {
+  border: 1px solid black;
+  color: black;
+}
+
+.txt_box_mb button span {
+  margin-right: 12px;
 }
 
 /* swiper */
