@@ -415,7 +415,61 @@ export default class Main extends React.Component<MainProps> {
           {windowWidth < 768 && <MainSectionMb></MainSectionMb>}
         </div>
 
-        <div className=""></div>
+        <div className="news">
+          {windowWidth > 1201 && (
+            <div className="news_pc">
+              <div className="news_left">
+                <h1>HMC NEWS</h1>
+                <h4>
+                  주식회사 에이치엠씨네트웍스의 새로운 소식과 유용한 자료들을
+                  생생하게 알려드립니다.
+                </h4>
+                <button className="second_button">
+                  <FontAwesomeIcon icon={faArrowRight} />
+                </button>
+              </div>
+              <div className="news_right">
+                <ul>
+                  <li>
+                    <h3>
+                      케어네이션, 코바코 혁신 AD-Venture 대상 '지역상생 부문'
+                      수상
+                    </h3>
+                    <p>
+                      케어네이션은 일자리 창출, 매출 성장, 크리에이티브 평가
+                      등의 종합 평가에서 우수한 점수를 받았다.
+                    </p>
+                  </li>
+                  <li>
+                    <h3>
+                      케어네이션, 헬스케어 슈퍼 플랫폼 '케어네이션 2.0' 런칭
+                    </h3>
+                    <p>
+                      간병 플랫폼을 넘어 진료부터 간병, 요양까지 다양한 헬스케어
+                      서비스를 담은 '케어네이션 2.0'을 새롭게 런칭했다.
+                    </p>
+                  </li>
+                  <li>
+                    <h3>
+                      헬스케어 슈퍼 플랫폼 케어네이션, 배우 차승원 전속 모델
+                      발탁
+                    </h3>
+                    <p>
+                      모두에게 사랑받는 차승원과 헬스케어 서비스로 확장한
+                      케어네이션이 만나 큰 시너지 효과를 낼 것으로 기대된다.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          )}
+          {windowWidth < 1200 && (
+            <div className="news_mb">
+              <div></div>
+            </div>
+          )}
+          <div className="news_bg"></div>
+        </div>
       </div>
     );
   }
