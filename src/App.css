@@ -122,3 +122,7 @@ ul {
 .navList li:hover {
   color: #0060ad;
 }
+
+.p_title {
+  font-weight: bold;
+}
