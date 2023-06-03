@@ -8,8 +8,7 @@ import Header from "./routes/Header";
 import Main from "./routes/Main";
 import Product from "./routes/Product";
 import Nav from "./components/Nav";
-import RouterPropsTest from "./routes/RouterPropsTest";
-import RouterPropsResult from "./routes/RouterPropsResult";
+import Footer from "./routes/Footer";
 
 const App: React.FC = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -48,19 +47,11 @@ const App: React.FC = () => {
                 element={<Main windowWidth={windowWidth} />}
               ></Route>
               <Route path="/product/*" Component={Product}></Route>
-
-              <Route
-                path="/routerpropstest"
-                Component={RouterPropsTest}
-              ></Route>
-              <Route
-                path="/routerpropsresult"
-                Component={RouterPropsResult}
-              ></Route>
             </Routes>
           )}
 
           {isNavToggle && <Nav></Nav>}
+          <Footer onToggle={handleToggle} windowWidth={windowWidth} />
         </BrowserRouter>
       </div>
     </>
