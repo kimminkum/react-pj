@@ -28,7 +28,7 @@ const Header: React.FC<HeaderProps> = ({ windowWidth, onToggle }) => {
             <div className="flex_end">
               <ul className="pc_nav">
                 <li>
-                  <Link to="/product/*">ABOUT US</Link>
+                  <Link to="/about/company">ABOUT US</Link>
                 </li>
                 <li>
                   <Link to="/business">BUSINESS</Link>
