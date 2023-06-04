@@ -7,6 +7,7 @@ import "./App.css";
 import Header from "./routes/Header";
 import Main from "./routes/Main";
 import Product from "./routes/Product";
+import About from "./routes/About";
 import Nav from "./components/Nav";
 import Footer from "./routes/Footer";
 
@@ -46,6 +47,7 @@ const App: React.FC = () => {
                 path="/"
                 element={<Main windowWidth={windowWidth} />}
               ></Route>
+              <Route path="/about/company" Component={About}></Route>
               <Route path="/product/*" Component={Product}></Route>
             </Routes>
           )}
