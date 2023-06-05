@@ -55,7 +55,9 @@ const App: React.FC = () => {
             </Routes>
           )}
 
-          {isNavToggle && <Nav></Nav>}
+          {isNavToggle && (
+            <Nav isNavToggle={isNavToggle} onToggle={handleToggle}></Nav>
+          )}
           <Footer onToggle={handleToggle} windowWidth={windowWidth} />
         </BrowserRouter>
       </div>
