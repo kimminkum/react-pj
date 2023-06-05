@@ -47,7 +47,10 @@ const App: React.FC = () => {
                 path="/"
                 element={<Main windowWidth={windowWidth} />}
               ></Route>
-              <Route path="/about/*" Component={About}></Route>
+              <Route
+                path="/about/*"
+                element={<About windowWidth={windowWidth} />}
+              ></Route>
               <Route path="/product/*" Component={Product}></Route>
             </Routes>
           )}

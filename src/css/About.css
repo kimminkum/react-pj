@@ -1,0 +1,277 @@
+.about_box {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.about_txt {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-transform: uppercase;
+}
+
+.about_txt h1 {
+  font-size: 3.5rem;
+}
+
+.about_bg {
+  width: 100%;
+  height: 100%;
+  background: url('https://hmcnetworks.co.kr/img/bg_submain01.feebe439.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.about_tab {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  background: #1c273b;
+  width: 100%;
+  padding: 20px;
+}
+
+.aboutList {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutList li {
+  padding: 0 20px;
+  margin: 0 20px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.aboutList li:hover {
+  color: red;
+}
+
+/* Company */
+
+.com_info {
+  padding: 80px 0;
+}
+
+.com_info .info_txt {
+  text-align: center;
+  max-width: 70%;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.com_info .info_txt h2 {
+  margin-bottom: 60px;
+}
+
+.com_info .info_txt span {
+  position: absolute;
+  width: 50px;
+  height: 5px;
+  background: #0060ad;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+.com_info .info_txt p {
+  font-weight: bold;
+  line-height: 1.3rem;
+}
+
+p {
+  color: #797979;
+}
+
+.com_info .com_info_img_box_mb {
+  padding: 20px;
+}
+
+.com_info .com_info_img_box_mb .com_info_img1 img,
+.com_info .com_info_img_box_mb .com_info_img2 img {
+  width: 65%;
+}
+
+.com_info .com_info_img_box_mb .com_info_img1,
+.com_info .com_info_img_box_mb .com_info_img2 {
+  width: 100%;
+}
+
+.com_info .com_info_img_box_mb .com_info_img2 {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+.com_info .com_info_img1 img {
+  border-radius: 0 16px 16px 16px;
+  overflow: hidden;
+}
+
+.com_info .com_info_img2 img {
+  border-radius: 16px 16px 0 16px;
+  overflow: hidden;
+}
+
+.com_info_img_box_pc {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  padding: 30px 20px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.com_info_img_box_pc .com_info_img1,
+.com_info_img_box_pc .com_info_img2 {
+  width: 48%;
+}
+
+.com_info_img_box_pc .com_info_img1 {
+  margin-top: 60px;
+}
+
+.com_info_img_box_pc .com_info_img1 img,
+.com_info_img_box_pc .com_info_img2 img {
+  width: 100%;
+}
+
+.com_ideo {
+  padding: 60px 0;
+}
+
+.com_ideo .info_txt {
+  text-align: center;
+  position: relative;
+  padding: 30px 0;
+  margin-bottom: 40px;
+}
+.com_ideo .info_txt span {
+  position: absolute;
+  width: 50px;
+  height: 5px;
+  background: #0060ad;
+  top: 85%;
+  transform: translateX(-50%);
+}
+
+.com_ideo > div {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.com_ideo section {
+  text-align: center;
+}
+
+.com_ideo section div img {
+  width: 50%;
+}
+.com_ideo section div {
+  margin-bottom: 20px;
+}
+
+.com_ideo section h3 {
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 16px 0 32px;
+}
+
+section p {
+  line-height: 1.4rem;
+}
+
+.major_investor {
+  height: 800px;
+  position: relative;
+  margin: 40px 0;
+  padding: 20px 0;
+  color: white;
+  font-weight: bold;
+}
+
+.major_investor .bg {
+  position: absolute;
+  background: url('https://hmcnetworks.co.kr/img/bg_subban01.d2049507.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.major_investor .grid_box {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.major_investor .grid_box div img {
+  width: 100%;
+}
+
+.major_investor .txt_box_mb {
+  position: relative;
+}
+
+.major_investor .txt_box_pc {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px 20px 140px;
+}
+
+.major_investor .txt_box_pc > :first-child {
+  width: 55%;
+}
+.major_investor .txt_box_pc > :nth-child(2) {
+  width: 35%;
+}
+
+.major_investor .txt_box_pc h1 {
+  margin-bottom: 30px;
+}
+
+.major_investor .txt_box_pc span {
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  background: white;
+  top: 28%;
+}
+.major_investor .txt_box_pc h5 {
+  color: white;
+  line-height: 1.5rem;
+  font-size: 1rem;
+}
+
+.major_investor .txt_box_mb h3 {
+  margin-bottom: 30px;
+}
+
+.major_investor .txt_box_mb span {
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  background: white;
+  top: 33%;
+}
+
+.major_investor .txt_box_mb p {
+  color: white;
+  line-height: 1.2rem;
+  margin-bottom: 30px;
+}
