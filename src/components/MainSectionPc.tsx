@@ -1,7 +1,16 @@
+import React, { useEffect } from "react";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const MainSectionPc: React.FC = () => {
+  useEffect(() => {
+    AOS.init({ duration: 3000 });
+  }, []);
+
   return (
     <div className="second_article flex_center">
       <div className="flex_box">
@@ -13,7 +22,11 @@ const MainSectionPc: React.FC = () => {
           </p>
         </div>
 
-        <div className="second_section odd">
+        <div
+          className="second_section odd"
+          data-aos="fade-up"
+          data-aos-once="false"
+        >
           <div className="second_img_box">
             <img
               src="https://hmcnetworks.co.kr/img/img_mainser_02.403ea325.jpg"
@@ -33,7 +46,11 @@ const MainSectionPc: React.FC = () => {
           </div>
         </div>
 
-        <div className="second_section even">
+        <div
+          className="second_section even"
+          data-aos="fade-up"
+          data-aos-once="false"
+        >
           <div className="second_img_box">
             <img
               src="https://hmcnetworks.co.kr/img/img_mainser_04.76e33c3d.jpg"
@@ -54,7 +71,11 @@ const MainSectionPc: React.FC = () => {
           </div>
         </div>
 
-        <div className="second_section odd">
+        <div
+          className="second_section odd"
+          data-aos="fade-up"
+          data-aos-once="false"
+        >
           <div className="second_img_box">
             <img
               src="https://hmcnetworks.co.kr/img/img_mainser_06.ce4f8fa3.jpg"
@@ -76,7 +97,11 @@ const MainSectionPc: React.FC = () => {
       </div>
 
       <div className="flex_box">
-        <div className="second_section even">
+        <div
+          className="second_section even"
+          data-aos="fade-up"
+          data-aos-once="false"
+        >
           <div className="second_img_box">
             <img
               src="https://hmcnetworks.co.kr/img/img_mainser_01.c19a47a4.png"
@@ -96,7 +121,11 @@ const MainSectionPc: React.FC = () => {
           </div>
         </div>
 
-        <div className="second_section odd">
+        <div
+          className="second_section odd"
+          data-aos="fade-up"
+          data-aos-once="false"
+        >
           <div className="second_img_box">
             <img
               src="https://hmcnetworks.co.kr/img/img_mainser_03.c73f8c7c.jpg"
@@ -117,7 +146,11 @@ const MainSectionPc: React.FC = () => {
           </div>
         </div>
 
-        <div className="second_section even">
+        <div
+          className="second_section even"
+          data-aos="fade-up"
+          data-aos-once="false"
+        >
           <div className="second_img_box">
             <img
               src="https://hmcnetworks.co.kr/img/img_mainser_05.0cc6b059.jpg"

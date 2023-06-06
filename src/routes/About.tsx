@@ -21,9 +21,9 @@ const About: React.FC<AboutProps> = ({ windowWidth }) => {
   if (selectedTab === "company") {
     content = <Company windowWidth={windowWidth} />;
   } else if (selectedTab === "history") {
-    content = <History />;
+    content = <History windowWidth={windowWidth} />;
   } else if (selectedTab === "si") {
-    content = <Si />;
+    content = <Si windowWidth={windowWidth} />;
   }
 
   return (

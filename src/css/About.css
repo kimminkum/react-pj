@@ -11,6 +11,7 @@
   transform: translateX(-50%);
   color: white;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .about_txt h1 {
@@ -119,7 +120,7 @@ p {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1280px;
   padding: 30px 20px;
   position: relative;
   margin: 0 auto;
@@ -160,7 +161,7 @@ p {
 
 .com_ideo > div {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -229,7 +230,7 @@ section p {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 120px 20px 140px;
 }
@@ -273,5 +274,153 @@ section p {
 .major_investor .txt_box_mb p {
   color: white;
   line-height: 1.2rem;
+  margin-bottom: 30px;
+}
+
+/* History */
+
+.his_social {
+  width: 100%;
+  position: relative;
+  margin: 20px 0 80px;
+  min-height: 320px;
+  height: auto;
+}
+
+.his_social .bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url('https://hmcnetworks.co.kr/img/bg_concierge_m.fe5ca784.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.his_social .txt_box {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.his_social .txt_box h1 {
+  font-size: 3.2rem;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.4);
+  padding: 0 20px;
+}
+
+.his_social .txt_box h1.pc {
+  font-size: 5rem;
+  line-height: 5rem;
+}
+
+.history {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.history > div {
+  padding: 0 20px;
+  margin: 20px 0 60px;
+}
+
+.history div .circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #0060ad;
+  margin: 30px auto 0;
+}
+
+.history div .pc {
+  max-width: 1280px;
+  padding-top: 72px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.history div:nth-child(2n + 1) .pc {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.history div .pc > div {
+  width: 45%;
+  padding: 0 20px;
+}
+
+.history div .mb {
+  padding: 82px 0 16px;
+}
+
+.history .year h1 {
+  font-size: 4rem;
+  line-height: 5rem;
+}
+
+.history div .pc .txt_boxs strong {
+  color: #0060ad;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  letter-spacing: -1.4px;
+}
+
+.history div .pc .txt_boxs > :nth-child(2) {
+  margin-top: 30px;
+}
+.history div .pc .txt_boxs > *:not(:nth-child(2)) {
+  margin-top: 20px;
+}
+
+.history div .mb .txt_boxs > :nth-child(2) {
+  margin-top: 16px;
+}
+.history div .mb .txt_boxs > *:not(:nth-child(2)) {
+  margin-top: 12px;
+}
+
+.history div .mb .txt_boxs strong {
+  color: #0060ad;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  letter-spacing: -1.1px;
+  text-align: center;
+}
+
+.history .pc .txt_boxs p {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  letter-spacing: -1px;
+  color: #333;
+}
+
+.history .mb .txt_boxs p {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  letter-spacing: -.8px;
+  color: #333;
+  text-align: center;
+}
+
+.history .mb .img_boxs {
+  width: 100%;
+  position: relative;
+}
+.history .mb .img_boxs img,
+.history .pc .img_boxs img {
+  width: 100%;
+  border-radius: 0 12px 12px 12px;
+  object-fit: contain;
+  position: relative;
   margin-bottom: 30px;
 }

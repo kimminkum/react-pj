@@ -18,7 +18,7 @@
   top: 30%;
   margin: 0 auto;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1280px;
   color: white;
   right: 1%;
   padding: 0 20px;
@@ -90,7 +90,7 @@
 }
 
 .nav_pc {
-  max-width: 1200px;
+  max-width: 1280px;
   width: 100%;
   margin: 0 auto;
 }
@@ -307,7 +307,7 @@
 .news_pc {
   width: 100%;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1280px;
   display: flex;
   justify-content: space-between;
 }
