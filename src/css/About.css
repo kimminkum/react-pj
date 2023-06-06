@@ -350,7 +350,7 @@ section p {
   text-align: left;
 }
 
-.history div:nth-child(2n + 1) .pc {
+.history div:nth-child(2n) .pc {
   flex-direction: row-reverse;
   text-align: right;
 }
@@ -373,6 +373,7 @@ section p {
   color: #0060ad;
   font-size: 1.8rem;
   line-height: 2rem;
+  display: block;
   letter-spacing: -1.4px;
 }
 
@@ -396,6 +397,7 @@ section p {
   line-height: 1.6rem;
   letter-spacing: -1.1px;
   text-align: center;
+  display: block;
 }
 
 .history .pc .txt_boxs p {
@@ -424,4 +426,69 @@ section p {
   object-fit: contain;
   position: relative;
   margin-bottom: 30px;
+}
+
+.history .pc .txt_boxs span {
+  display: inline-block;
+  font-size: 14px;
+  padding: 7px 10px 7px 36px;
+  border-radius: 20px;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAA5FBMVEVHcEz/1GT7tVD/3HD/lor6uUX4r1LtrzTekj3/0GD/3XD/l4ra2Yz6wEr+0WL/33T/2m7/0V/mzm5X1P/+1Wj+02VX1P9X1P/6vE3/l4n/0Wv6xlP/1Wb/017/lon/lor/l4lY1P9T2v//lorg1YBX1f/+0GD/l4lX1v9X1P9X0/9Y1P//l4r/mIn/l4r/l4n/2Gv/33X/l4pY1P//23D/3nP/0mL+1Wn90mb/2Wv/zVv/x1H9z2L/1Wb/3XL/2m7/ylX+12z/vUX/67D/w0z/4Y3/yXX/5Zf/6KT/uX3/4YD/pIRnuAJLAAAAMXRSTlMA3B1CPg8JBAHfxnL8FmG/8dX+P5p4t/Ik84c1R1Enn3/cC1r9U7e0IZB00No009L48STbTAAAAl9JREFUOMuNk+l22jAQRgVNiEMKIWUJYcnapFm6yZYlW8aSjdnK+z9QR/J+EsfcP8bnXObMNzNGqJrmlfmnhQ6j9ds0zZsD5R+m4uwg99aMOTrAPUpc8+q6WjL6jyfwuL5KZfNndcgXyxoZCN2YOQ9V7qMFvCL0UJCr+ni+VLLVB/s2nsbN7a8K9/5Ou9blM7yc1QxjZCW83dfKr1bGS618l8vWfZ08yt07o042+v03na/fP6kPiAxd/FL/rpXRIXL3POGr4vuF4nSz+VjGGcRllPPA8zzuy3+fyzZxfQruarXi1D1Y9oIquUczeADqElgF/GO5207Q+SDgKRAHNBTlymkXhTaoFGSzmXROgJKe9SxSmdvJ33uTTqsF+icBZfIqbCHa0+OSLVNCptxAuYJ6K4+HhJDeGOxcHl40Yr5p/oJLl4FPbJdSKclFE+x3AdUGfUrhGSxdjHcQWLIwDIed47x0uWeCsb8UeBsBRIYhCxvF0uVpwHPp4320j4Qg4DIWzju5TFJkqLtwVxivd1jLjDkOGzSPM3nSSIHNQQCfY6i8jfY2zMdJ5KRpo531LKTrYptS27bX22i3I8xZLEpyOaBr2z6FZQgRkd3aqZZVQB/Kc1AJieR2DS7Iw0LPdoqeBhFiAVnXa+g6XGh5WpjGk5cBt8wJDEwqWdddOM4TLDxbyiDvWarSehXMwdqFwrPmRxuMT5SDrMa7SFzoOC9cngZ83DyWdTiHTcad4tW9u2ePxTbQG46LZ4TQKU8JvPhzXXqOvorGYNosuwh9yZjNZvP5vKsYdrvTMahpD/8BfJfL6gxf/ygAAAAASUVORK5CYII=')
+    no-repeat 10px / 22px #fff7c2;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -.7px;
+  color: #333;
+}
+
+.history .mb .txt_boxs span {
+  display: inline-block;
+  font-size: 1rem;
+  padding: 7px 10px 7px 36px;
+  border-radius: 20px;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAA5FBMVEVHcEz/1GT7tVD/3HD/lor6uUX4r1LtrzTekj3/0GD/3XD/l4ra2Yz6wEr+0WL/33T/2m7/0V/mzm5X1P/+1Wj+02VX1P9X1P/6vE3/l4n/0Wv6xlP/1Wb/017/lon/lor/l4lY1P9T2v//lorg1YBX1f/+0GD/l4lX1v9X1P9X0/9Y1P//l4r/mIn/l4r/l4n/2Gv/33X/l4pY1P//23D/3nP/0mL+1Wn90mb/2Wv/zVv/x1H9z2L/1Wb/3XL/2m7/ylX+12z/vUX/67D/w0z/4Y3/yXX/5Zf/6KT/uX3/4YD/pIRnuAJLAAAAMXRSTlMA3B1CPg8JBAHfxnL8FmG/8dX+P5p4t/Ik84c1R1Enn3/cC1r9U7e0IZB00No009L48STbTAAAAl9JREFUOMuNk+l22jAQRgVNiEMKIWUJYcnapFm6yZYlW8aSjdnK+z9QR/J+EsfcP8bnXObMNzNGqJrmlfmnhQ6j9ds0zZsD5R+m4uwg99aMOTrAPUpc8+q6WjL6jyfwuL5KZfNndcgXyxoZCN2YOQ9V7qMFvCL0UJCr+ni+VLLVB/s2nsbN7a8K9/5Ou9blM7yc1QxjZCW83dfKr1bGS618l8vWfZ08yt07o042+v03na/fP6kPiAxd/FL/rpXRIXL3POGr4vuF4nSz+VjGGcRllPPA8zzuy3+fyzZxfQruarXi1D1Y9oIquUczeADqElgF/GO5207Q+SDgKRAHNBTlymkXhTaoFGSzmXROgJKe9SxSmdvJ33uTTqsF+icBZfIqbCHa0+OSLVNCptxAuYJ6K4+HhJDeGOxcHl40Yr5p/oJLl4FPbJdSKclFE+x3AdUGfUrhGSxdjHcQWLIwDIed47x0uWeCsb8UeBsBRIYhCxvF0uVpwHPp4320j4Qg4DIWzju5TFJkqLtwVxivd1jLjDkOGzSPM3nSSIHNQQCfY6i8jfY2zMdJ5KRpo531LKTrYptS27bX22i3I8xZLEpyOaBr2z6FZQgRkd3aqZZVQB/Kc1AJieR2DS7Iw0LPdoqeBhFiAVnXa+g6XGh5WpjGk5cBt8wJDEwqWdddOM4TLDxbyiDvWarSehXMwdqFwrPmRxuMT5SDrMa7SFzoOC9cngZ83DyWdTiHTcad4tW9u2ePxTbQG46LZ4TQKU8JvPhzXXqOvorGYNosuwh9yZjNZvP5vKsYdrvTMahpD/8BfJfL6gxf/ygAAAAASUVORK5CYII=')
+    no-repeat 10px / 22px #fff7c2;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -.7px;
+  color: #333;
+}
+
+.pc .devide {
+  padding: 32px 0 0;
+  position: relative;
+}
+
+.pc .devide::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  background-color: #0060ad;
+  top: 2px;
+  right: 0;
+  margin: 0 auto;
+}
+
+.pc .devide.left::before {
+  left: 0;
+  right: auto;
+}
+
+.mb p.devide {
+  padding: 36px 0 0;
+  position: relative;
+}
+
+.mb p.devide::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  background-color: #0060ad;
+  top: 12px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }

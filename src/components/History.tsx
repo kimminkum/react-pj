@@ -102,7 +102,7 @@ const History: React.FC<HistoryProps> = ({ windowWidth }) => {
             <div className="mb" data-aos="fade-up" data-aos-once="false">
               <div className="img_boxs">
                 <img
-                  src="https://hmcnetworks.co.kr/img/img_history01.27a0846d.jpg"
+                  src="https://hmcnetworks.co.kr/img/img_history02.531bec57.jpg"
                   alt=""
                 />
               </div>
@@ -118,7 +118,7 @@ const History: React.FC<HistoryProps> = ({ windowWidth }) => {
             <div className="pc even" data-aos="fade-up" data-aos-once="false">
               <div className="img_boxs">
                 <img
-                  src="https://hmcnetworks.co.kr/img/img_history01.27a0846d.jpg"
+                  src="https://hmcnetworks.co.kr/img/img_history02.531bec57.jpg"
                   alt=""
                 />
               </div>
@@ -147,7 +147,7 @@ const History: React.FC<HistoryProps> = ({ windowWidth }) => {
             <div className="mb" data-aos="fade-up" data-aos-once="false">
               <div className="img_boxs">
                 <img
-                  src="https://hmcnetworks.co.kr/img/img_history01.27a0846d.jpg"
+                  src="https://hmcnetworks.co.kr/img/img_history03.88b2eba8.jpg"
                   alt=""
                 />
               </div>
@@ -165,7 +165,7 @@ const History: React.FC<HistoryProps> = ({ windowWidth }) => {
             <div className="pc" data-aos="fade-up" data-aos-once="false">
               <div className="img_boxs">
                 <img
-                  src="https://hmcnetworks.co.kr/img/img_history01.27a0846d.jpg"
+                  src="https://hmcnetworks.co.kr/img/img_history03.88b2eba8.jpg"
                   alt=""
                 />
               </div>
@@ -196,7 +196,7 @@ const History: React.FC<HistoryProps> = ({ windowWidth }) => {
             <div className="mb" data-aos="fade-up" data-aos-once="false">
               <div className="img_boxs">
                 <img
-                  src="https://hmcnetworks.co.kr/img/img_history01.27a0846d.jpg"
+                  src="https://hmcnetworks.co.kr/img/img_history04.a3069659.jpg"
                   alt=""
                 />
               </div>
@@ -216,7 +216,7 @@ const History: React.FC<HistoryProps> = ({ windowWidth }) => {
             <div className="pc" data-aos="fade-up" data-aos-once="false">
               <div className="img_boxs">
                 <img
-                  src="https://hmcnetworks.co.kr/img/img_history01.27a0846d.jpg"
+                  src="https://hmcnetworks.co.kr/img/img_history04.a3069659.jpg"
                   alt=""
                 />
               </div>
@@ -254,7 +254,7 @@ const History: React.FC<HistoryProps> = ({ windowWidth }) => {
                 />
               </div>
 
-              <div className="txt_boxs">
+              <div className="txt_boxs even">
                 <strong>케어네이션 서비스 런칭 및 투자 유치</strong>
                 <span>Series-A</span>
                 <p>㈜HB인베스트먼트 투자 유치</p>
