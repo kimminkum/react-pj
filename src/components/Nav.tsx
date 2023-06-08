@@ -16,7 +16,7 @@ const Nav: React.FC<HistoryProps> = ({ onToggle }) => {
           <Link to="/about/company">ABOUT US</Link>
         </li>
         <li onClick={onToggle}>
-          <Link to="/business">BUSINESS</Link>
+          <Link to="/business/hmcfb">BUSINESS</Link>
         </li>
         <li onClick={onToggle}>
           <Link to="/pr">PR</Link>

@@ -31,7 +31,7 @@ const Header: React.FC<HeaderProps> = ({ windowWidth, onToggle }) => {
                   <Link to="/about/company">ABOUT US</Link>
                 </li>
                 <li>
-                  <Link to="/business">BUSINESS</Link>
+                  <Link to="/business/hmcfb">BUSINESS</Link>
                 </li>
                 <li>
                   <Link to="/pr">PR</Link>

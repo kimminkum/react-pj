@@ -14,7 +14,7 @@ interface BusinessProps {
 }
 
 const Business: React.FC<BusinessProps> = ({ windowWidth }) => {
-  const [selectedTab, setSelectedTab] = useState("company");
+  const [selectedTab, setSelectedTab] = useState("hmcfb");
 
   const handleTabClick = (tab: string) => {
     setSelectedTab(tab);
