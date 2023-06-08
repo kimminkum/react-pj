@@ -6,7 +6,7 @@ import "./App.css";
 
 import Header from "./routes/Header";
 import Main from "./routes/Main";
-import Product from "./routes/Product";
+import Business from "./routes/Business";
 import About from "./routes/About";
 import Nav from "./components/Nav";
 import Footer from "./routes/Footer";
@@ -51,7 +51,10 @@ const App: React.FC = () => {
                 path="/about/*"
                 element={<About windowWidth={windowWidth} />}
               ></Route>
-              <Route path="/product/*" Component={Product}></Route>
+              <Route
+                path="/business/*"
+                element={<Business windowWidth={windowWidth} />}
+              ></Route>
             </Routes>
           )}
 

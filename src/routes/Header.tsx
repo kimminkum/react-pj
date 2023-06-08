@@ -24,7 +24,7 @@ const Header: React.FC<HeaderProps> = ({ windowWidth, onToggle }) => {
 
         <div>
           {/* pc */}
-          {windowWidth > 1051 && (
+          {windowWidth > 1024 && (
             <div className="flex_end">
               <ul className="pc_nav">
                 <li>
@@ -47,7 +47,7 @@ const Header: React.FC<HeaderProps> = ({ windowWidth, onToggle }) => {
           )}
 
           {/* mobile */}
-          {windowWidth < 1050 && (
+          {windowWidth < 1023 && (
             <div className="icons_box" onClick={onToggle}>
               <FontAwesomeIcon icon={faBars} />
             </div>
