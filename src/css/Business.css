@@ -33,17 +33,20 @@
   color: white;
   background: #1c273b;
   width: 100%;
-  padding: 20px;
+  padding: 10px 16px;
 }
 
 .businessList {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .businessList li {
-  padding: 0 20px;
-  margin: 0 20px;
+  padding: 10px 20px;
+  text-align: center;
+  width: 200px;
+  height: 35px;
   font-size: 1rem;
   font-weight: bold;
 }
@@ -147,6 +150,7 @@ p {
   width: 100%;
   height: 650px;
   color: white;
+  margin: 40px 0 80px;
 }
 
 .fb .fb_bg {
@@ -204,12 +208,13 @@ p {
   line-height: 1.2rem;
 }
 
-.fb .mb .bottom .grid {
+.grid {
   margin-top: 40px;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+
 .fb .mb .bottom .grid div {
   width: 95%;
   margin-bottom: -3px;
@@ -225,7 +230,47 @@ p {
   width: 100%;
   max-width: 1280px;
   height: 640px;
-  padding: 40px 20px;
+  padding: 80px 20px;
+  margin: 0 auto;
+}
+
+.fb .pc > div {
+  width: 50%;
+}
+
+.fb .pc .left_box h1 {
+  position: relative;
+}
+
+.fb .pc .left_box h1::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 120px;
+  height: 5px;
+  top: 60px;
+  left: 0;
+  background: white;
+}
+
+.fb .pc .right_box .title_number {
+  margin-right: 20px;
+}
+.fb .pc .right_box .fb_txt {
+  margin-top: 10px;
+}
+
+.fb .pc .right_box .fb_txt h3 {
+  margin-bottom: 20px;
+}
+
+.fb .pc .right_box .grid {
+  gap: 16px;
+  margin-top: 100px;
+  width: 450px;
+}
+.fb .pc .right_box .grid img {
+  width: 100%;
 }
 
 .title_number {
@@ -240,4 +285,76 @@ p {
 .custom-prev,
 .custom-next {
   background-color: rgba(255, 255, 255, 0.18);
+}
+
+.custom > div {
+  padding: 0 20px;
+}
+
+.custom > div > h3 {
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.custom > div > h3::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 80px;
+  height: 5px;
+  top: 48px;
+  left: 0;
+  background: #0060ad;
+}
+
+.custom_pc {
+  width: 100%;
+  max-width: 1280px;
+  margin: 60px auto 120px;
+}
+
+.custom_pc > div > h1 {
+  position: relative;
+  margin-bottom: 100px;
+}
+.custom_pc > div > h1::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 80px;
+  height: 5px;
+  top: 65px;
+  left: 0;
+  background: #0060ad;
+}
+
+.custom .grid3 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.custom .grid3 div {
+  width: 100%;
+}
+
+.custom .grid3 div img {
+  width: 100%;
+}
+
+.custom_pc .grid6 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 16px;
+}
+
+.custom_pc .grid6 div {
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.custom_pc .grid6 div img {
+  width: 100%;
 }

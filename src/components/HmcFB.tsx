@@ -6,6 +6,8 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
+import Customers from "../components/Customers";
+
 interface HmcFBProps {
   windowWidth: number;
 }
@@ -98,12 +100,11 @@ const HmcFB: React.FC<HmcFBProps> = ({ windowWidth }) => {
               </div>
             )}
             {windowWidth > 769 && (
-              <div className="pc">
+              <div className="pc flex_sb">
                 <div className="left_box">
                   <h1 className="title">HMC F&B만의 특징</h1>
-                  <span></span>
                 </div>
-                <div className="right_box">
+                <div className="right_box flex_start">
                   <div>
                     <h1 className="title_number">01</h1>
                   </div>
@@ -162,23 +163,26 @@ const HmcFB: React.FC<HmcFBProps> = ({ windowWidth }) => {
               </div>
             )}
             {windowWidth > 769 && (
-              <div className="pc">
+              <div className="pc flex_sb">
                 <div className="left_box">
                   <h1 className="title">HMC F&B만의 특징</h1>
-                  <span></span>
                 </div>
                 <div className="right_box">
-                  <div>
-                    <h1 className="title_number">02</h1>
+                  <div className="flex_start">
+                    <div>
+                      <h1 className="title_number">02</h1>
+                    </div>
+                    <div className="fb_txt">
+                      <h3>위탁 공급 시스템</h3>
+                      <h5>
+                        국내 식자재 공급을 대표하는 대기업 3사의 비교 견적을
+                        통해
+                        <br /> 보다 다양한 품목을 보다 저렴하게 공급합니다.
+                      </h5>
+                    </div>
                   </div>
-                  <div className="fb_txt">
-                    <h3>위탁 공급 시스템</h3>
-                    <h5>
-                      국내 식자재 공급을 대표하는 대기업 3사의 비교 견적을 통해
-                      <br /> 보다 다양한 품목을 보다 저렴하게 공급합니다.
-                    </h5>
-                  </div>
-                  <div className="flex_sb">
+
+                  <div className="grid">
                     <div>
                       <img
                         src="https://hmcnetworks.co.kr/img/img_fnb01.bf129b0f.png"
@@ -224,12 +228,11 @@ const HmcFB: React.FC<HmcFBProps> = ({ windowWidth }) => {
               </div>
             )}
             {windowWidth > 769 && (
-              <div className="pc">
+              <div className="pc flex_sb">
                 <div className="left_box">
                   <h1 className="title">HMC F&B만의 특징</h1>
-                  <span></span>
                 </div>
-                <div className="right_box">
+                <div className="right_box flex_start">
                   <div>
                     <h1 className="title_number">03</h1>
                   </div>
@@ -256,6 +259,8 @@ const HmcFB: React.FC<HmcFBProps> = ({ windowWidth }) => {
         )}
         <div className="swiper-pagination"></div>
       </div>
+
+      <Customers windowWidth={windowWidth} />
     </>
   );
 };
