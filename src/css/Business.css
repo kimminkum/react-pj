@@ -153,6 +153,17 @@ p {
   margin: 40px 0 80px;
 }
 
+.offline .fb {
+  height: 650px;
+}
+
+.offline .fb .fb_bg {
+  background: url('https://hmcnetworks.co.kr/img/bg_silverban03.9d0e8a34.jpg')
+    no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
 .fb .fb_bg {
   position: absolute;
   width: 100%;
@@ -177,7 +188,7 @@ p {
   height: 640px;
   top: 0;
   left: 0;
-  padding: 60px 20px 80px;
+  padding: 140px 20px 160px;
 }
 
 .fb .mb .top h2 {
@@ -230,7 +241,7 @@ p {
   width: 100%;
   max-width: 1280px;
   height: 640px;
-  padding: 80px 20px;
+  padding: 150px 20px 180px;
   margin: 0 auto;
 }
 
@@ -311,6 +322,7 @@ p {
   width: 100%;
   max-width: 1280px;
   margin: 60px auto 120px;
+  padding: 0 20px;
 }
 
 .custom_pc > div > h1 {
@@ -357,4 +369,77 @@ p {
 
 .custom_pc .grid6 div img {
   width: 100%;
+}
+
+.shop {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 30px 0 80px;
+}
+
+.shop > a {
+  width: 50%;
+  position: relative;
+  height: 500px;
+  color: white;
+  overflow: hidden;
+}
+
+.shop > :first-child > .bg {
+  width: 100%;
+  height: 100%;
+  background: url('https://hmcnetworks.co.kr/img/bg_shop01.8973afcf.png')
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: .4s;
+}
+
+.shop > :last-child > .bg {
+  width: 100%;
+  height: 100%;
+  background: url('https://hmcnetworks.co.kr/img/bg_shop02.a1d2fa9f.png')
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: .4s;
+}
+
+.shop > :first-child > .txt {
+  position: absolute;
+  width: 600px;
+  height: 500px;
+  top: 0;
+  right: 0;
+  padding: 100px 40px;
+}
+.shop > :last-child > .txt {
+  position: absolute;
+  width: 600px;
+  height: 500px;
+  top: 0;
+  left: 0;
+  padding: 100px 40px;
+}
+
+.shop .txt h1 {
+  margin-bottom: 60px;
+}
+
+.shop .txt button {
+  color: white;
+  border: 1px solid #eee;
+  padding: 20px 80px;
+}
+
+.shop > :first-child:hover .txt button,
+.shop > :last-child:hover .txt button {
+  background: white;
+  color: black;
+}
+
+.shop > :first-child:hover .bg,
+.shop > :last-child:hover .bg {
+  transform: scale(1.5);
 }

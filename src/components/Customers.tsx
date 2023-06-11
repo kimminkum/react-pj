@@ -1,5 +1,7 @@
 import data from "../data/banner";
 
+import "../css/Business.css";
+
 interface CustomersProps {
   windowWidth: number;
 }

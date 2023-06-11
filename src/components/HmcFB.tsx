@@ -77,7 +77,7 @@ const HmcFB: React.FC<HmcFBProps> = ({ windowWidth }) => {
           onSwiper={(swiper) => console.log(swiper)}
         >
           <SwiperSlide>
-            {windowWidth < 768 && (
+            {windowWidth < 1050 && (
               <div className="mb">
                 <div className="top">
                   <h2>HMC F&B만의 특징</h2>
@@ -99,7 +99,7 @@ const HmcFB: React.FC<HmcFBProps> = ({ windowWidth }) => {
                 </div>
               </div>
             )}
-            {windowWidth > 769 && (
+            {windowWidth > 1051 && (
               <div className="pc flex_sb">
                 <div className="left_box">
                   <h1 className="title">HMC F&B만의 특징</h1>
@@ -123,7 +123,7 @@ const HmcFB: React.FC<HmcFBProps> = ({ windowWidth }) => {
             )}
           </SwiperSlide>
           <SwiperSlide>
-            {windowWidth < 768 && (
+            {windowWidth < 1050 && (
               <div className="mb">
                 <div className="top">
                   <h2>HMC F&B만의 특징</h2>
@@ -162,7 +162,7 @@ const HmcFB: React.FC<HmcFBProps> = ({ windowWidth }) => {
                 </div>
               </div>
             )}
-            {windowWidth > 769 && (
+            {windowWidth > 1051 && (
               <div className="pc flex_sb">
                 <div className="left_box">
                   <h1 className="title">HMC F&B만의 특징</h1>
@@ -207,7 +207,7 @@ const HmcFB: React.FC<HmcFBProps> = ({ windowWidth }) => {
             )}
           </SwiperSlide>
           <SwiperSlide>
-            {windowWidth < 768 && (
+            {windowWidth < 1050 && (
               <div className="mb">
                 <div className="top">
                   <h2>HMC F&B만의 특징</h2>
@@ -227,7 +227,7 @@ const HmcFB: React.FC<HmcFBProps> = ({ windowWidth }) => {
                 </div>
               </div>
             )}
-            {windowWidth > 769 && (
+            {windowWidth > 1051 && (
               <div className="pc flex_sb">
                 <div className="left_box">
                   <h1 className="title">HMC F&B만의 특징</h1>
