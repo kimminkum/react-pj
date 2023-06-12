@@ -292,6 +292,25 @@ p {
   color: white;
   background: white;
 }
+.hmcLab .swiper-pagination-bullet-active {
+  color: black;
+}
+
+.hmcLab {
+  margin: 100px 0;
+  padding: 20px 0;
+}
+
+.hmcLab .swiper-pagination-bullet {
+  color: black;
+}
+
+.hmcLab .swiper-pagination {
+  width: 100%;
+  height: 50px;
+  color: black;
+  outline: 1px solid red;
+}
 
 .custom-prev,
 .custom-next {
