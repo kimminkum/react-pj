@@ -292,26 +292,6 @@ p {
   color: white;
   background: white;
 }
-.hmcLab .swiper-pagination-bullet-active {
-  color: black;
-}
-
-.hmcLab {
-  margin: 100px 0;
-  padding: 20px 0;
-}
-
-.hmcLab .swiper-pagination-bullet {
-  color: black;
-}
-
-.hmcLab .swiper-pagination {
-  width: 100%;
-  height: 50px;
-  color: black;
-  outline: 1px solid red;
-}
-
 .custom-prev,
 .custom-next {
   background-color: rgba(255, 255, 255, 0.18);
@@ -461,4 +441,587 @@ p {
 .shop > :first-child:hover .bg,
 .shop > :last-child:hover .bg {
   transform: scale(1.5);
+}
+
+/* lab */
+
+.lab > :first-child {
+  margin: 0 auto;
+  width: 864px;
+  min-height: 668px;
+  background: url('https://hmcnetworks.co.kr/img/img_labmodel.790d2794.png')
+    no-repeat 50%/cover;
+}
+
+.lab .pc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lab .mb {
+  display: flex;
+  flex-direction: column;
+}
+
+.lab > .pc > a {
+  height: 561px;
+  overflow: hidden;
+  width: 50%;
+  color: white;
+}
+
+.lab > .mb > a {
+  height: 561px;
+  overflow: hidden;
+  width: 100%;
+  color: white;
+}
+
+.lab > .pc > :first-child > .bg {
+  background: url('https://hmcnetworks.co.kr/img/bg_labban01.30997839.jpg')
+    no-repeat 50%/cover;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 561px;
+  transition: all .3s ease;
+}
+.lab > .pc > :last-child > .bg {
+  background: url('https://hmcnetworks.co.kr/img/bg_labban02.dc3e224e.png')
+    no-repeat 50%/cover;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 561px;
+  transition: all .3s ease;
+}
+
+.lab > .mb > :first-child > .bg {
+  background: url('https://hmcnetworks.co.kr/img/bg_labban01.30997839.jpg')
+    no-repeat 50%/cover;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  transition: all .3s ease;
+  overflow: hidden;
+}
+.lab > .mb > :last-child > .bg {
+  background: url('https://hmcnetworks.co.kr/img/bg_labban02.dc3e224e.png')
+    no-repeat 50%/cover;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  transition: all .3s ease;
+}
+
+.lab > div > :first-child:hover > .bg,
+.lab > div > :last-child:hover > .bg {
+  transform: scale(1.3);
+}
+
+.lab > .pc > :first-child > .txt {
+  width: 100%;
+  max-width: 600px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 60px;
+}
+.lab > .pc > :last-child > .txt {
+  width: 100%;
+  max-width: 600px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 60px;
+}
+
+.lab > .mb > a > .txt {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 60px;
+}
+
+.lab > div > a > .txt > * {
+  margin-bottom: 30px;
+}
+.lab > div > a > .txt h4 {
+  font-size: 1.8rem;
+  line-height: 2rem;
+  letter-spacing: -2px;
+}
+.lab > div > a > .txt h2 {
+  font-size: 2.9rem;
+  line-height: 3.3rem;
+  letter-spacing: -4px;
+}
+
+.lab > div > a > .txt p {
+  color: white;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  letter-spacing: -1px;
+}
+.lab > div > a > .txt div {
+  width: 170px;
+  text-align: right;
+  position: relative;
+  border: 1px solid white;
+  padding: 20px;
+}
+.lab > div > :first-child:hover > .txt div,
+.lab > div > :last-child:hover > .txt div {
+  background: white;
+  color: black;
+}
+
+.lab > div > a > .txt div::after {
+  position: absolute;
+  content: "";
+  width: 70px;
+  height: 30px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url('https://cdn-icons-png.flaticon.com/512/732/732208.png')
+    no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.lab > div > a > .txt small {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  letter-spacing: -1.2px;
+}
+
+.lab_center {
+  margin: 60px auto;
+  width: 100%;
+  max-width: 1280px;
+  text-align: center;
+  padding: 0 30px;
+}
+
+.lab_center h1 {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3rem;
+  letter-spacing: -2px;
+}
+
+.hmcLab {
+  margin: 40px 0;
+  padding: 100px 0;
+  position: relative;
+}
+
+.hmcLab .custom-navigation {
+  position: absolute;
+  top: 50%;
+  height: 100px;
+  width: 100%;
+  max-width: 1280px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hmcLab .custom-navigation .custom-prev {
+  width: 20px;
+  height: 60px;
+  position: absolute;
+  left: 0%;
+  top: 50%;
+}
+
+.hmcLab .custom-navigation .custom-next {
+  width: 20px;
+  height: 60px;
+  position: absolute;
+  right: 0%;
+  top: 50%;
+}
+
+.hmcLab .custom-navigation .custom-prev::after {
+  content: "<";
+  font-size: 5rem;
+  color: #4e4e4e;
+  height: 40px;
+  z-index: 2;
+  position: absolute;
+  right: 0;
+}
+.hmcLab .custom-navigation .custom-next::after {
+  content: ">";
+  font-size: 5rem;
+  height: 40px;
+  color: #4e4e4e;
+  z-index: 2;
+  position: absolute;
+  left: 0;
+}
+
+.hmcLab .custom-prev,
+.hmcLab .custom-next {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.hmcLab .swiper-pagination-bullet {
+  color: black;
+}
+
+.hmcLab .swiper-pagination {
+  width: 100%;
+  height: 90px;
+  color: black;
+}
+.hmcLab .swiper-pagination {
+  width: 100%;
+  max-width: 1280px;
+  position: absolute;
+  z-index: 4;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hmcLab .swiper-pagination-bullet {
+  width: 130px;
+  line-height: 50px;
+  padding: 0 10px;
+  min-height: 30px;
+  background: transparent;
+  opacity: 1;
+  color: #777;
+  font-weight: 600;
+}
+
+.hmcLab .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  color: black;
+}
+
+.swiper {
+  padding: 150px 0 0;
+}
+
+.hmcLab .mb {
+  height: 450px;
+}
+
+.hmcLab .pc {
+  width: 90%;
+  height: 600px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 40px;
+}
+
+.hmcLab .mb div {
+  padding: 0 20px;
+}
+
+.hmcLab .pc > div {
+  width: 50%;
+}
+
+.hmcLab .pc > :first-child {
+  padding: 40px 20px;
+}
+
+.hmcLab .mb div h2 {
+  margin-bottom: 20px;
+  letter-spacing: -2px;
+  font-weight: 900;
+}
+
+.hmcLab .pc div h1 {
+  margin-bottom: 40px;
+  letter-spacing: -2px;
+  font-size: 3rem;
+  line-height: 4rem;
+  font-weight: 900;
+}
+.hmcLab .mb div p {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  letter-spacing: -.4px;
+}
+.hmcLab .pc div h4 {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  letter-spacing: -.4px;
+  color: #4e4e4e;
+}
+.hmcLab .pc div p {
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+}
+
+.hmcLab .swiper-slide:nth-child(1) .mb > :last-child {
+  background: url('https://hmcnetworks.co.kr/img/img_mokup01_m.351649e4.png')
+    no-repeat 50%/contain;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 400px;
+  transition: all .3s ease;
+  overflow: hidden;
+}
+
+.hmcLab .swiper-slide:nth-child(2) .mb > :last-child {
+  background: url('https://hmcnetworks.co.kr/img/img_mokup02_m.db490010.png')
+    no-repeat 50%/contain;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 400px;
+  transition: all .3s ease;
+  overflow: hidden;
+}
+
+.hmcLab .swiper-slide:nth-child(3) .mb > :last-child {
+  background: url('https://hmcnetworks.co.kr/img/img_mokup03_m.67eb2add.png')
+    no-repeat 50%/contain;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 400px;
+  transition: all .3s ease;
+  overflow: hidden;
+}
+
+.hmcLab .swiper-slide:nth-child(4) .mb > :last-child {
+  background: url('https://hmcnetworks.co.kr/img/img_mokup04_m.2427e3e0.png')
+    no-repeat 50%/contain;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 400px;
+  transition: all .3s ease;
+  overflow: hidden;
+}
+
+.hmcLab .swiper-slide:nth-child(5) .mb > :last-child {
+  background: url('https://hmcnetworks.co.kr/img/img_mokup05_m.311993e4.png')
+    no-repeat 50%/contain;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 400px;
+  transition: all .3s ease;
+  overflow: hidden;
+}
+
+.hmcLab .swiper-slide:nth-child(6) .mb > :last-child {
+  background: url('https://hmcnetworks.co.kr/img/img_mokup06_m.d4e07b85.png')
+    no-repeat 50%/contain;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 400px;
+  transition: all .3s ease;
+  overflow: hidden;
+}
+
+.hmcLab .swiper-slide:nth-child(7) .mb > :last-child {
+  background: url('https://hmcnetworks.co.kr/img/img_mokup07_m.fc66ac25.png')
+    no-repeat 50%/contain;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 400px;
+  transition: all .3s ease;
+  overflow: hidden;
+}
+
+.hmcLab .swiper-slide:nth-child(8) .mb > :last-child {
+  background: url('https://hmcnetworks.co.kr/img/img_mokup08_m.c6472463.png')
+    no-repeat 50%/contain;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 400px;
+  transition: all .3s ease;
+  overflow: hidden;
+}
+
+.hmcLab .swiper-slide:nth-child(9) .mb > :last-child {
+  background: url('https://hmcnetworks.co.kr/img/img_mokup09_m.6b2288a4.png')
+    no-repeat 50%/contain;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 400px;
+  transition: all .3s ease;
+  overflow: hidden;
+}
+
+.hmcLab .swiper-slide:nth-child(10) .mb > :last-child {
+  background: url('https://hmcnetworks.co.kr/img/img_mokup10_m.c1a98187.png')
+    no-repeat 50%/contain;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 400px;
+  transition: all .3s ease;
+  overflow: hidden;
+}
+
+.hmcLab .swiper-slide:nth-child(11) .mb > :last-child {
+  background: url('https://hmcnetworks.co.kr/img/img_mokup11_m.2e2ea2b5.png')
+    no-repeat 50%/contain;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 400px;
+  transition: all .3s ease;
+  overflow: hidden;
+}
+
+.hmcLab .swiper-slide:nth-child(1) .pc > :last-child {
+  background: url('https://hmcnetworks.co.kr/img/img_mokup01.08b8e4a6.png')
+    no-repeat 50%/contain;
+  z-index: -1;
+  width: 50%;
+  height: 100%;
+  transition: all .3s ease;
+  overflow: hidden;
+}
+.hmcLab .swiper-slide:nth-child(2) .pc > :last-child {
+  background: url('https://hmcnetworks.co.kr/img/img_mokup02.c5d2a360.png')
+    no-repeat 50%/contain;
+  z-index: -1;
+  width: 50%;
+  height: 100%;
+  transition: all .3s ease;
+  overflow: hidden;
+}
+
+.hmcLab .swiper-slide:nth-child(3) .pc > :last-child {
+  background: url('https://hmcnetworks.co.kr/img/img_mokup03.79388287.png')
+    no-repeat 50%/contain;
+  z-index: -1;
+  width: 50%;
+  height: 100%;
+  transition: all .3s ease;
+  overflow: hidden;
+}
+
+.hmcLab .swiper-slide:nth-child(4) .pc > :last-child {
+  background: url('https://hmcnetworks.co.kr/img/img_mokup04.3c505c82.png')
+    no-repeat 50%/contain;
+  z-index: -1;
+  width: 50%;
+  height: 100%;
+  transition: all .3s ease;
+  overflow: hidden;
+}
+
+.hmcLab .swiper-slide:nth-child(5) .pc > :last-child {
+  background: url('https://hmcnetworks.co.kr/img/img_mokup05.f7a4c4b5.png')
+    no-repeat 50%/contain;
+  z-index: -1;
+  width: 50%;
+  height: 100%;
+  transition: all .3s ease;
+  overflow: hidden;
+}
+
+.hmcLab .swiper-slide:nth-child(6) .pc > :last-child {
+  background: url('https://hmcnetworks.co.kr/img/img_mokup06.2b480a46.png')
+    no-repeat 50%/contain;
+  z-index: -1;
+  width: 50%;
+  height: 100%;
+  transition: all .3s ease;
+  overflow: hidden;
+}
+
+.hmcLab .swiper-slide:nth-child(7) .pc > :last-child {
+  background: url('https://hmcnetworks.co.kr/img/img_mokup07.6843bba8.png')
+    no-repeat 50%/contain;
+  z-index: -1;
+  width: 50%;
+  height: 100%;
+  transition: all .3s ease;
+  overflow: hidden;
+}
+
+.hmcLab .swiper-slide:nth-child(8) .pc > :last-child {
+  background: url('https://hmcnetworks.co.kr/img/img_mokup08.e8366e27.png')
+    no-repeat 50%/contain;
+  z-index: -1;
+  width: 50%;
+  height: 100%;
+  transition: all .3s ease;
+  overflow: hidden;
+}
+
+.hmcLab .swiper-slide:nth-child(9) .pc > :last-child {
+  background: url('https://hmcnetworks.co.kr/img/img_mokup09.12815d09.png')
+    no-repeat 50%/contain;
+  z-index: -1;
+  width: 50%;
+  height: 100%;
+  transition: all .3s ease;
+  overflow: hidden;
+}
+
+.hmcLab .swiper-slide:nth-child(10) .pc > :last-child {
+  background: url('https://hmcnetworks.co.kr/img/img_mokup10.d1f21fc6.png')
+    no-repeat 50%/contain;
+  z-index: -1;
+  width: 50%;
+  height: 100%;
+  transition: all .3s ease;
+  overflow: hidden;
+}
+
+.hmcLab .swiper-slide:nth-child(11) .pc > :last-child {
+  background: url('https://hmcnetworks.co.kr/img/img_mokup11.ba88fc61.png')
+    no-repeat 50%/contain;
+  z-index: -1;
+  width: 50%;
+  height: 100%;
+  transition: all .3s ease;
+  overflow: hidden;
+}
+
+.blue_btn {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 30px;
+}
+
+.blue_btn a {
+  border: 1px solid #0060ad;
+  padding: 20px 80px 20px 40px;
+  color: #0060ad;
+  position: relative;
+  font-size: 1.3rem;
+}
+.blue_btn a:hover {
+  border-radius: 20px;
+}
+
+.blue_btn a::after {
+  content: ">";
+  position: absolute;
+  left: 280px;
+  line-height: 50px;
+  font-size: 1.5rem;
+}
+
+.blue_btn a:hover::after {
+  width: auto;
 }
