@@ -10,6 +10,8 @@ import Business from "./routes/Business";
 import About from "./routes/About";
 import Nav from "./components/Nav";
 import Footer from "./routes/Footer";
+import Pr from "./routes/Pr";
+import Careers from "./routes/Careers";
 
 const App: React.FC = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -54,6 +56,14 @@ const App: React.FC = () => {
               <Route
                 path="/business/*"
                 element={<Business windowWidth={windowWidth} />}
+              ></Route>
+              <Route
+                path="/pr"
+                element={<Pr windowWidth={windowWidth} />}
+              ></Route>
+              <Route
+                path="/careers/*"
+                element={<Careers windowWidth={windowWidth} />}
               ></Route>
             </Routes>
           )}
