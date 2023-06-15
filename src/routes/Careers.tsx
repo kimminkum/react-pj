@@ -1,8 +1,10 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-// import HmcTalent from "../components/HmcTalent";
-// import Welfare from "../components/Welfare";
+import "../css/Careers.css";
+
+import HmcTalent from "../components/HmcTalent";
+import Welfare from "../components/Welfare";
 
 interface CareersProps {
   windowWidth: number;
@@ -15,58 +17,38 @@ const Careers: React.FC<CareersProps> = ({ windowWidth }) => {
     setSelectedTab(tab);
   };
 
-  //   let content;
-  //   if (selectedTab === "hmcfb") {
-  //     content = <HmcTalent windowWidth={windowWidth} />;
-  //   } else if (selectedTab === "hmcmedical") {
-  //     content = <Welfare windowWidth={windowWidth} />;
-  //   }
+  let content;
+  if (selectedTab === "hmctalent") {
+    content = <HmcTalent windowWidth={windowWidth} />;
+  } else if (selectedTab === "welfare") {
+    content = <Welfare windowWidth={windowWidth} />;
+  }
 
   return (
     <>
-      <div className="business_box">
-        <div className="business_txt">
-          <h1>Business</h1>
+      <div className="careers_box">
+        <div className="careers_txt">
+          <h1>Careers</h1>
         </div>
 
-        <div className="business_tab">
-          <ul className="businessList">
+        <div className="careers_tab">
+          <ul className="careersList">
             <li>
-              <Link to="#" onClick={() => handleTabClick("hmcfb")}>
-                HMC F&B
+              <Link to="#" onClick={() => handleTabClick("hmctalent")}>
+                HMC의 인재상
               </Link>
             </li>
             <li>
-              <Link to="#" onClick={() => handleTabClick("hmcmedical")}>
-                HMC MEDICAL
-              </Link>
-            </li>
-            <li>
-              <Link to="#" onClick={() => handleTabClick("offline")}>
-                오프라인 간병
-              </Link>
-            </li>
-            <li>
-              <Link to="#" onClick={() => handleTabClick("hmcLab")}>
-                HMC LAB.
-              </Link>
-            </li>
-            <li>
-              <Link to="#" onClick={() => handleTabClick("hmcPayment")}>
-                HMC PAYMENT
-              </Link>
-            </li>
-            <li>
-              <Link to="#" onClick={() => handleTabClick("subs")}>
-                Subsidiaries
+              <Link to="#" onClick={() => handleTabClick("welfare")}>
+                복리후생
               </Link>
             </li>
           </ul>
         </div>
-        <div className="business_bg"></div>
+        <div className="careers_bg"></div>
       </div>
 
-      {/* {content} */}
+      {content}
     </>
   );
 };
