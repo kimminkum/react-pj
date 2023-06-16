@@ -12,6 +12,7 @@ import Nav from "./components/Nav";
 import Footer from "./routes/Footer";
 import Pr from "./routes/Pr";
 import Careers from "./routes/Careers";
+import Contact from "./routes/Contact";
 
 const App: React.FC = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -64,6 +65,10 @@ const App: React.FC = () => {
               <Route
                 path="/careers/*"
                 element={<Careers windowWidth={windowWidth} />}
+              ></Route>
+              <Route
+                path="/contact"
+                element={<Contact windowWidth={windowWidth} />}
               ></Route>
             </Routes>
           )}

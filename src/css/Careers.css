@@ -426,6 +426,11 @@
   transform: translateY(-50%);
 }
 
+.certification .pc ul li > :first-child h4 {
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+}
+
 .certification div ul li > :last-child {
   position: absolute;
   width: 100%;
