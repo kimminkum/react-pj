@@ -9,23 +9,35 @@ const Nav: React.FC<HistoryProps> = ({ onToggle }) => {
   return (
     <div>
       <ul className="navList">
-        <li onClick={onToggle}>
-          <Link to="/">HOME</Link>
+        <li>
+          <Link to="/react-pj" onClick={onToggle}>
+            HOME
+          </Link>
         </li>
-        <li onClick={onToggle}>
-          <Link to="/about/company">ABOUT US</Link>
+        <li>
+          <Link to="/react-pj/about/company" onClick={onToggle}>
+            ABOUT US
+          </Link>
         </li>
-        <li onClick={onToggle}>
-          <Link to="/business/hmcfb">BUSINESS</Link>
+        <li>
+          <Link to="/react-pj/business/hmcfb" onClick={onToggle}>
+            BUSINESS
+          </Link>
         </li>
-        <li onClick={onToggle}>
-          <Link to="/pr">PR</Link>
+        <li>
+          <Link to="/react-pj/pr" onClick={onToggle}>
+            PR
+          </Link>
         </li>
-        <li onClick={onToggle}>
-          <Link to="/careers">CAREERS</Link>
+        <li>
+          <Link to="/react-pj/careers" onClick={onToggle}>
+            CAREERS
+          </Link>
         </li>
-        <li onClick={onToggle}>
-          <Link to="/contact">CONTACT</Link>
+        <li>
+          <Link to="/react-pj/contact" onClick={onToggle}>
+            CONTACT
+          </Link>
         </li>
       </ul>
     </div>

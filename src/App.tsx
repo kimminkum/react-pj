@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // import styled from "styled-components";
@@ -22,6 +22,8 @@ const App: React.FC = () => {
     setIsNavToggle(!isNavToggle);
   };
 
+  // const pathName = new URL(window.location.href).pathname;
+
   useEffect(() => {
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
@@ -37,6 +39,7 @@ const App: React.FC = () => {
   return (
     <>
       <div className="App">
+        {/* <BrowserRouter basename={pathName}> */}
         <BrowserRouter>
           <Header
             isNavToggle={isNavToggle}
@@ -47,27 +50,27 @@ const App: React.FC = () => {
           {!isNavToggle && (
             <Routes>
               <Route
-                path="/"
+                path="/react-pj"
                 element={<Main windowWidth={windowWidth} />}
               ></Route>
               <Route
-                path="/about/*"
+                path="/react-pj/about/*"
                 element={<About windowWidth={windowWidth} />}
               ></Route>
               <Route
-                path="/business/*"
+                path="/react-pj/business/*"
                 element={<Business windowWidth={windowWidth} />}
               ></Route>
               <Route
-                path="/pr"
+                path="/react-pj/pr"
                 element={<Pr windowWidth={windowWidth} />}
               ></Route>
               <Route
-                path="/careers/*"
+                path="/react-pj/careers/*"
                 element={<Careers windowWidth={windowWidth} />}
               ></Route>
               <Route
-                path="/contact"
+                path="/react-pj/contact"
                 element={<Contact windowWidth={windowWidth} />}
               ></Route>
             </Routes>

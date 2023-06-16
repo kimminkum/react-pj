@@ -176,6 +176,18 @@ ul {
   border-top: 1px solid #ccc;
 }
 
+.mb  .accordion-header {
+  flex-direction: column;
+  align-items: baseline;
+}
+.mb .accordion-header .pr_title,
+.mb .accordion-header .pr_date {
+  width: 100%;
+  text-align: left;
+}
+.mb .accordion-header .pr_title {
+  margin-bottom: 2px;
+}
 .accordion-header {
   display: flex;
   width: 100%;
