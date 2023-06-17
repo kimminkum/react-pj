@@ -22,7 +22,7 @@ const App: React.FC = () => {
     setIsNavToggle(!isNavToggle);
   };
 
-  const pathName = new URL(window.location.href).pathname;
+  // const pathName = new URL(window.location.href).pathname;
 
   useEffect(() => {
     const handleResize = () => {
@@ -39,8 +39,8 @@ const App: React.FC = () => {
   return (
     <>
       <div className="App">
-        <BrowserRouter basename={pathName}>
-          {/* <BrowserRouter> */}
+        {/* <BrowserRouter basename={pathName}> */}
+        <BrowserRouter>
           <Header
             isNavToggle={isNavToggle}
             onToggle={handleToggle}
@@ -50,27 +50,27 @@ const App: React.FC = () => {
           {!isNavToggle && (
             <Routes>
               <Route
-                path="/*"
+                path="/react-pj/"
                 element={<Main windowWidth={windowWidth} />}
               ></Route>
               <Route
-                path="/about/*"
+                path="/react-pj/about/*"
                 element={<About windowWidth={windowWidth} />}
               ></Route>
               <Route
-                path="/business/*"
+                path="/react-pj/business/*"
                 element={<Business windowWidth={windowWidth} />}
               ></Route>
               <Route
-                path="/pr"
+                path="/react-pj/pr"
                 element={<Pr windowWidth={windowWidth} />}
               ></Route>
               <Route
-                path="/careers/*"
+                path="/react-pj/careers/*"
                 element={<Careers windowWidth={windowWidth} />}
               ></Route>
               <Route
-                path="/contact"
+                path="/react-pj/contact"
                 element={<Contact windowWidth={windowWidth} />}
               ></Route>
             </Routes>
