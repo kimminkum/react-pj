@@ -39,7 +39,7 @@ const App: React.FC = () => {
   return (
     <>
       <div className="App">
-        {/* <BrowserRouter basename={pathName}> */}
+        {/* <BrowserRouter basename={"/react-pj"}> */}
         <BrowserRouter>
           <Header
             isNavToggle={isNavToggle}
@@ -50,7 +50,7 @@ const App: React.FC = () => {
           {!isNavToggle && (
             <Routes>
               <Route
-                path="/react-pj/"
+                path="/react-pj"
                 element={<Main windowWidth={windowWidth} />}
               ></Route>
               <Route
