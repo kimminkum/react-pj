@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // import styled from "styled-components";
 import "./App.css";
@@ -42,7 +42,7 @@ const App: React.FC = () => {
     <>
       <div className="App">
         {/* <BrowserRouter basename={"/react-pj"}> */}
-        <Router>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Header
             isNavToggle={isNavToggle}
             onToggle={handleToggle}
@@ -82,7 +82,7 @@ const App: React.FC = () => {
             <Nav isNavToggle={isNavToggle} onToggle={handleToggle}></Nav>
           )}
           <Footer onToggle={handleToggle} windowWidth={windowWidth} />
-        </Router>
+        </BrowserRouter>
       </div>
     </>
   );
