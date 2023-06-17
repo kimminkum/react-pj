@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 // import styled from "styled-components";
 import "./App.css";
@@ -40,7 +42,7 @@ const App: React.FC = () => {
     <>
       <div className="App">
         {/* <BrowserRouter basename={"/react-pj"}> */}
-        <BrowserRouter>
+        <Router>
           <Header
             isNavToggle={isNavToggle}
             onToggle={handleToggle}
@@ -50,27 +52,27 @@ const App: React.FC = () => {
           {!isNavToggle && (
             <Routes>
               <Route
-                path="/react-pj"
+                path="/"
                 element={<Main windowWidth={windowWidth} />}
               ></Route>
               <Route
-                path="/react-pj/about/*"
+                path="/about/*"
                 element={<About windowWidth={windowWidth} />}
               ></Route>
               <Route
-                path="/react-pj/business/*"
+                path="/business/*"
                 element={<Business windowWidth={windowWidth} />}
               ></Route>
               <Route
-                path="/react-pj/pr"
+                path="/pr"
                 element={<Pr windowWidth={windowWidth} />}
               ></Route>
               <Route
-                path="/react-pj/careers/*"
+                path="/careers/*"
                 element={<Careers windowWidth={windowWidth} />}
               ></Route>
               <Route
-                path="/react-pj/contact"
+                path="/contact"
                 element={<Contact windowWidth={windowWidth} />}
               ></Route>
             </Routes>
@@ -80,7 +82,7 @@ const App: React.FC = () => {
             <Nav isNavToggle={isNavToggle} onToggle={handleToggle}></Nav>
           )}
           <Footer onToggle={handleToggle} windowWidth={windowWidth} />
-        </BrowserRouter>
+        </Router>
       </div>
     </>
   );

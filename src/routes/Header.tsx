@@ -16,7 +16,7 @@ const Header: React.FC<HeaderProps> = ({ windowWidth, onToggle }) => {
     <div>
       <div className="flex_sb topbar">
         {/* Logo */}
-        <Link to="/react-pj">
+        <Link to="/">
           <div>
             <img src={imgLogo} alt="" />
           </div>
@@ -28,19 +28,19 @@ const Header: React.FC<HeaderProps> = ({ windowWidth, onToggle }) => {
             <div className="flex_end">
               <ul className="pc_nav">
                 <li>
-                  <Link to="/react-pj/about/company">ABOUT US</Link>
+                  <Link to="/about/company">ABOUT US</Link>
                 </li>
                 <li>
-                  <Link to="/react-pj/business/hmcfb">BUSINESS</Link>
+                  <Link to="/business/hmcfb">BUSINESS</Link>
                 </li>
                 <li>
-                  <Link to="/react-pj/pr">PR</Link>
+                  <Link to="/pr">PR</Link>
                 </li>
                 <li>
-                  <Link to="/react-pj/careers/hmctalent">CAREERS</Link>
+                  <Link to="/careers/hmctalent">CAREERS</Link>
                 </li>
                 <li>
-                  <Link to="/react-pj/contact">CONTACT</Link>
+                  <Link to="/contact">CONTACT</Link>
                 </li>
               </ul>
             </div>
