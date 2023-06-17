@@ -50,7 +50,7 @@ const App: React.FC = () => {
           {!isNavToggle && (
             <Routes>
               <Route
-                path="/"
+                path="/*"
                 element={<Main windowWidth={windowWidth} />}
               ></Route>
               <Route
