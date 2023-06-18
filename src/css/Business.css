@@ -1037,10 +1037,9 @@ p {
 }
 
 .pay .fb_bg {
-  background: url('https://hmcnetworks.co.kr/img/bg_payban_m.32bb9a6f.jpg')
+  background: url('https://hmcnetworks.co.kr/img/bg_payban.16fb109b.jpg')
     no-repeat;
   background-size: cover;
-  z-index: -1;
   position: absolute;
   width: 100%;
   height: 100%;
