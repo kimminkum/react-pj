@@ -116,16 +116,20 @@
   content: "<";
   font-size: 2rem;
   color: white;
+
+  z-index: 4;
 }
 .custom-next::after {
   content: ">";
   font-size: 2rem;
   color: white;
+  z-index: 4;
 }
 
 .custom-prev:hover,
 .custom-next:hover {
   background-color: #555;
+  cursor: pointer;
 }
 
 /* second */

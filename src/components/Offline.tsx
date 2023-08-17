@@ -195,14 +195,6 @@ const Offline: React.FC<OfflineProps> = ({ windowWidth }) => {
             )}
           </SwiperSlide>
         </Swiper>
-        {windowWidth > 1201 && (
-          <div className="nav_pc">
-            <div className="custom-navigation">
-              <div className="custom-prev"></div>
-              <div className="custom-next"></div>
-            </div>
-          </div>
-        )}
         <div className="swiper-pagination"></div>
       </div>
 

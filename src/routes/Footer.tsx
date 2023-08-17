@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../css/Footer.css";
 import imgLogo2 from "../image/logo2.png";
 
