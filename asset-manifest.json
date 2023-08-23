@@ -1,15 +1,35 @@
 {
   "files": {
     "main.css": "/react-pj/static/css/main.ef76c2cc.css",
-    "main.js": "/react-pj/static/js/main.4b2e5e6e.js",
+    "main.js": "/react-pj/static/js/main.c0736304.js",
     "static/js/787.142da1d4.chunk.js": "/react-pj/static/js/787.142da1d4.chunk.js",
+    "static/media/mains06.png": "/react-pj/static/media/mains06.8173ede9e818600bc0ab.png",
+    "static/media/mains04.png": "/react-pj/static/media/mains04.99d5d45287b2166c909d.png",
+    "static/media/main03.jpg": "/react-pj/static/media/main03.b0b4bdb7ddaa66e31f1a.jpg",
+    "static/media/main07.jpg": "/react-pj/static/media/main07.2a5b1d9a1a6475182064.jpg",
+    "static/media/main01.png": "/react-pj/static/media/main01.f4a48fb729955d2ddfd0.png",
+    "static/media/main02.jpg": "/react-pj/static/media/main02.95df50bdffc7b341b66b.jpg",
+    "static/media/main05.jpg": "/react-pj/static/media/main05.b3234f1dea19693afd40.jpg",
+    "static/media/main04.jpg": "/react-pj/static/media/main04.a691d5ed1a5db3ab8353.jpg",
+    "static/media/main06.jpg": "/react-pj/static/media/main06.d6501a6164b4da4757fa.jpg",
+    "static/media/mains02.jpg": "/react-pj/static/media/mains02.c662771f082b80418916.jpg",
+    "static/media/mains03.jpg": "/react-pj/static/media/mains03.f306b61fda1a293e526c.jpg",
+    "static/media/mains05.jpg": "/react-pj/static/media/mains05.2fd0b3e3b4e109f82a38.jpg",
+    "static/media/mainm02.jpg": "/react-pj/static/media/mainm02.8d1a6d6b5f5d751f8588.jpg",
+    "static/media/mainm03.jpg": "/react-pj/static/media/mainm03.2530ffd37aa892ee8bea.jpg",
+    "static/media/mainm01.jpg": "/react-pj/static/media/mainm01.f8b725975c63ef6afd16.jpg",
+    "static/media/mainm07.jpg": "/react-pj/static/media/mainm07.bb282a51c2d3c7b674f8.jpg",
+    "static/media/mainm05.jpg": "/react-pj/static/media/mainm05.27036e5f5c7b68c614b5.jpg",
+    "static/media/mainm04.jpg": "/react-pj/static/media/mainm04.e515565f5546d354e9e3.jpg",
+    "static/media/mainm06.jpg": "/react-pj/static/media/mainm06.3b6393c3965fea4cf80e.jpg",
+    "static/media/mains01.jpg": "/react-pj/static/media/mains01.ce73755b9c531f44bbc2.jpg",
     "index.html": "/react-pj/index.html",
     "main.ef76c2cc.css.map": "/react-pj/static/css/main.ef76c2cc.css.map",
-    "main.4b2e5e6e.js.map": "/react-pj/static/js/main.4b2e5e6e.js.map",
+    "main.c0736304.js.map": "/react-pj/static/js/main.c0736304.js.map",
     "787.142da1d4.chunk.js.map": "/react-pj/static/js/787.142da1d4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ef76c2cc.css",
-    "static/js/main.4b2e5e6e.js"
+    "static/js/main.c0736304.js"
   ]
 }
