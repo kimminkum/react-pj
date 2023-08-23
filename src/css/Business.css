@@ -766,8 +766,7 @@ p {
 }
 
 .hmcLab .swiper-slide:nth-child(1) .mb > :last-child {
-  background: url('https://hmcnetworks.co.kr/img/img_mokup01_m.351649e4.png')
-    no-repeat 50%/contain;
+  background: url('../image/lab01.png') no-repeat 50%/contain;
   position: absolute;
   z-index: -1;
   width: 100%;
@@ -777,8 +776,7 @@ p {
 }
 
 .hmcLab .swiper-slide:nth-child(2) .mb > :last-child {
-  background: url('https://hmcnetworks.co.kr/img/img_mokup02_m.db490010.png')
-    no-repeat 50%/contain;
+  background: url('../image/lab02.png') no-repeat 50%/contain;
   position: absolute;
   z-index: -1;
   width: 100%;
@@ -788,8 +786,7 @@ p {
 }
 
 .hmcLab .swiper-slide:nth-child(3) .mb > :last-child {
-  background: url('https://hmcnetworks.co.kr/img/img_mokup03_m.67eb2add.png')
-    no-repeat 50%/contain;
+  background: url('../image/lab03.png') no-repeat 50%/contain;
   position: absolute;
   z-index: -1;
   width: 100%;
@@ -799,8 +796,7 @@ p {
 }
 
 .hmcLab .swiper-slide:nth-child(4) .mb > :last-child {
-  background: url('https://hmcnetworks.co.kr/img/img_mokup04_m.2427e3e0.png')
-    no-repeat 50%/contain;
+  background: url('../image/lab04.png') no-repeat 50%/contain;
   position: absolute;
   z-index: -1;
   width: 100%;
@@ -810,8 +806,7 @@ p {
 }
 
 .hmcLab .swiper-slide:nth-child(5) .mb > :last-child {
-  background: url('https://hmcnetworks.co.kr/img/img_mokup05_m.311993e4.png')
-    no-repeat 50%/contain;
+  background: url('../image/lab05.png') no-repeat 50%/contain;
   position: absolute;
   z-index: -1;
   width: 100%;
@@ -821,8 +816,7 @@ p {
 }
 
 .hmcLab .swiper-slide:nth-child(6) .mb > :last-child {
-  background: url('https://hmcnetworks.co.kr/img/img_mokup06_m.d4e07b85.png')
-    no-repeat 50%/contain;
+  background: url('../image/lab06.png') no-repeat 50%/contain;
   position: absolute;
   z-index: -1;
   width: 100%;
@@ -832,8 +826,7 @@ p {
 }
 
 .hmcLab .swiper-slide:nth-child(7) .mb > :last-child {
-  background: url('https://hmcnetworks.co.kr/img/img_mokup07_m.fc66ac25.png')
-    no-repeat 50%/contain;
+  background: url('../image/lab07.png') no-repeat 50%/contain;
   position: absolute;
   z-index: -1;
   width: 100%;
@@ -843,8 +836,7 @@ p {
 }
 
 .hmcLab .swiper-slide:nth-child(8) .mb > :last-child {
-  background: url('https://hmcnetworks.co.kr/img/img_mokup08_m.c6472463.png')
-    no-repeat 50%/contain;
+  background: url('../image/lab08.png') no-repeat 50%/contain;
   position: absolute;
   z-index: -1;
   width: 100%;
@@ -854,8 +846,7 @@ p {
 }
 
 .hmcLab .swiper-slide:nth-child(9) .mb > :last-child {
-  background: url('https://hmcnetworks.co.kr/img/img_mokup09_m.6b2288a4.png')
-    no-repeat 50%/contain;
+  background: url('../image/lab09.png') no-repeat 50%/contain;
   position: absolute;
   z-index: -1;
   width: 100%;
@@ -865,8 +856,7 @@ p {
 }
 
 .hmcLab .swiper-slide:nth-child(10) .mb > :last-child {
-  background: url('https://hmcnetworks.co.kr/img/img_mokup10_m.c1a98187.png')
-    no-repeat 50%/contain;
+  background: url('../image/lab01.png') no-repeat 50%/contain;
   position: absolute;
   z-index: -1;
   width: 100%;
@@ -876,8 +866,7 @@ p {
 }
 
 .hmcLab .swiper-slide:nth-child(11) .mb > :last-child {
-  background: url('https://hmcnetworks.co.kr/img/img_mokup11_m.2e2ea2b5.png')
-    no-repeat 50%/contain;
+  background: url('../image/lab02.png') no-repeat 50%/contain;
   position: absolute;
   z-index: -1;
   width: 100%;
@@ -887,8 +876,7 @@ p {
 }
 
 .hmcLab .swiper-slide:nth-child(1) .pc > :last-child {
-  background: url('https://hmcnetworks.co.kr/img/img_mokup01.08b8e4a6.png')
-    no-repeat 50%/contain;
+  background: url('../image/lab01.png') no-repeat 50%/contain;
   z-index: -1;
   width: 50%;
   height: 100%;
@@ -896,8 +884,7 @@ p {
   overflow: hidden;
 }
 .hmcLab .swiper-slide:nth-child(2) .pc > :last-child {
-  background: url('https://hmcnetworks.co.kr/img/img_mokup02.c5d2a360.png')
-    no-repeat 50%/contain;
+  background: url('../image/lab02.png') no-repeat 50%/contain;
   z-index: -1;
   width: 50%;
   height: 100%;
@@ -906,8 +893,7 @@ p {
 }
 
 .hmcLab .swiper-slide:nth-child(3) .pc > :last-child {
-  background: url('https://hmcnetworks.co.kr/img/img_mokup03.79388287.png')
-    no-repeat 50%/contain;
+  background: url('../image/lab03.png') no-repeat 50%/contain;
   z-index: -1;
   width: 50%;
   height: 100%;
@@ -916,8 +902,7 @@ p {
 }
 
 .hmcLab .swiper-slide:nth-child(4) .pc > :last-child {
-  background: url('https://hmcnetworks.co.kr/img/img_mokup04.3c505c82.png')
-    no-repeat 50%/contain;
+  background: url('../image/lab04.png') no-repeat 50%/contain;
   z-index: -1;
   width: 50%;
   height: 100%;
@@ -926,8 +911,7 @@ p {
 }
 
 .hmcLab .swiper-slide:nth-child(5) .pc > :last-child {
-  background: url('https://hmcnetworks.co.kr/img/img_mokup05.f7a4c4b5.png')
-    no-repeat 50%/contain;
+  background: url('../image/lab05.png') no-repeat 50%/contain;
   z-index: -1;
   width: 50%;
   height: 100%;
@@ -936,8 +920,7 @@ p {
 }
 
 .hmcLab .swiper-slide:nth-child(6) .pc > :last-child {
-  background: url('https://hmcnetworks.co.kr/img/img_mokup06.2b480a46.png')
-    no-repeat 50%/contain;
+  background: url('../image/lab06.png') no-repeat 50%/contain;
   z-index: -1;
   width: 50%;
   height: 100%;
@@ -946,8 +929,7 @@ p {
 }
 
 .hmcLab .swiper-slide:nth-child(7) .pc > :last-child {
-  background: url('https://hmcnetworks.co.kr/img/img_mokup07.6843bba8.png')
-    no-repeat 50%/contain;
+  background: url('../image/lab07.png') no-repeat 50%/contain;
   z-index: -1;
   width: 50%;
   height: 100%;
@@ -956,8 +938,7 @@ p {
 }
 
 .hmcLab .swiper-slide:nth-child(8) .pc > :last-child {
-  background: url('https://hmcnetworks.co.kr/img/img_mokup08.e8366e27.png')
-    no-repeat 50%/contain;
+  background: url('../image/lab08.png') no-repeat 50%/contain;
   z-index: -1;
   width: 50%;
   height: 100%;
@@ -966,8 +947,7 @@ p {
 }
 
 .hmcLab .swiper-slide:nth-child(9) .pc > :last-child {
-  background: url('https://hmcnetworks.co.kr/img/img_mokup09.12815d09.png')
-    no-repeat 50%/contain;
+  background: url('../image/lab09.png') no-repeat 50%/contain;
   z-index: -1;
   width: 50%;
   height: 100%;
@@ -976,8 +956,7 @@ p {
 }
 
 .hmcLab .swiper-slide:nth-child(10) .pc > :last-child {
-  background: url('https://hmcnetworks.co.kr/img/img_mokup10.d1f21fc6.png')
-    no-repeat 50%/contain;
+  background: url('../image/lab01.png') no-repeat 50%/contain;
   z-index: -1;
   width: 50%;
   height: 100%;
@@ -986,8 +965,7 @@ p {
 }
 
 .hmcLab .swiper-slide:nth-child(11) .pc > :last-child {
-  background: url('https://hmcnetworks.co.kr/img/img_mokup11.ba88fc61.png')
-    no-repeat 50%/contain;
+  background: url('../image/lab02.png') no-repeat 50%/contain;
   z-index: -1;
   width: 50%;
   height: 100%;
@@ -1199,8 +1177,7 @@ p {
 }
 
 .subsidiaries > :nth-child(1) .pc > :last-child > div {
-  background: url('https://hmcnetworks.co.kr/img/img_subslist_01.821e9e04.png')
-    no-repeat;
+  background: url('../image/sb02.png') no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 0 12px 12px 12px;
@@ -1209,8 +1186,7 @@ p {
   width: 70%;
 }
 .subsidiaries > :nth-child(2) .pc > :last-child > div {
-  background: url('https://hmcnetworks.co.kr/img/img_subslist_02.6d3c3c30.png')
-    no-repeat;
+  background: url('../image/sb03.png') no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 0 12px 12px 12px;
@@ -1219,8 +1195,7 @@ p {
   width: 70%;
 }
 .subsidiaries > :nth-child(3) .pc > :last-child > div {
-  background: url('https://hmcnetworks.co.kr/img/img_subslist_03.bda085b6.png')
-    no-repeat;
+  background: url('../image/sb01.png') no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 0 12px 12px 12px;
@@ -1230,8 +1205,7 @@ p {
 }
 
 .subsidiaries > :nth-child(1) .mb > :last-child {
-  background: url('https://hmcnetworks.co.kr/img/img_subslist_01.821e9e04.png')
-    no-repeat;
+  background: url('../image/sbm02.png') no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 0 12px 12px 12px;
@@ -1240,8 +1214,7 @@ p {
 }
 
 .subsidiaries > :nth-child(2) .mb > :last-child {
-  background: url('https://hmcnetworks.co.kr/img/img_subslist_02.6d3c3c30.png')
-    no-repeat;
+  background: url('../image/sbm03.png') no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 0 12px 12px 12px;
@@ -1250,8 +1223,7 @@ p {
 }
 
 .subsidiaries > :nth-child(3) .mb > :last-child {
-  background: url('https://hmcnetworks.co.kr/img/img_subslist_03.bda085b6.png')
-    no-repeat;
+  background: url('../image/sbm01.png') no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 0 12px 12px 12px;

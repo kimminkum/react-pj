@@ -8,6 +8,9 @@ import "swiper/css/scrollbar";
 
 import Customers from "../components/Customers";
 
+import offt01 from "../image/offt01.png";
+import offt02 from "../image/offt02.png";
+
 interface OfflineProps {
   windowWidth: number;
 }
@@ -28,16 +31,10 @@ const Offline: React.FC<OfflineProps> = ({ windowWidth }) => {
         {windowWidth < 1050 && (
           <div className="bu_info_img_box_mb">
             <div className="bu_info_img1">
-              <img
-                src="https://hmcnetworks.co.kr/img/img_sub06.14edc97c.png"
-                alt=""
-              />
+              <img src={offt01} alt="" />
             </div>
             <div className="bu_info_img2">
-              <img
-                src="https://hmcnetworks.co.kr/img/img_sub07.b074c8b2.png"
-                alt=""
-              />
+              <img src={offt02} alt="" />
             </div>
           </div>
         )}
@@ -45,16 +42,10 @@ const Offline: React.FC<OfflineProps> = ({ windowWidth }) => {
         {windowWidth > 1051 && (
           <div className="bu_info_img_box_pc">
             <div className="bu_info_img1">
-              <img
-                src="https://hmcnetworks.co.kr/img/img_sub06.14edc97c.png"
-                alt=""
-              />
+              <img src={offt01} alt="" />
             </div>
             <div className="bu_info_img2">
-              <img
-                src="https://hmcnetworks.co.kr/img/img_sub07.b074c8b2.png"
-                alt=""
-              />
+              <img src={offt02} alt="" />
             </div>
           </div>
         )}

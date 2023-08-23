@@ -8,6 +8,9 @@ import "swiper/css/scrollbar";
 
 import Customers from "../components/Customers";
 
+import fbt01 from "../image/fbt01.png";
+import fbt02 from "../image/fbt02.png";
+
 interface HmcFBProps {
   windowWidth: number;
 }
@@ -30,16 +33,10 @@ const HmcFB: React.FC<HmcFBProps> = ({ windowWidth }) => {
         {windowWidth < 1050 && (
           <div className="bu_info_img_box_mb">
             <div className="bu_info_img1">
-              <img
-                src="https://hmcnetworks.co.kr/img/img_mainser_01.c19a47a4.png"
-                alt=""
-              />
+              <img src={fbt01} alt="" />
             </div>
             <div className="bu_info_img2">
-              <img
-                src="https://hmcnetworks.co.kr/img/img_sub03.a4e7dcc0.png"
-                alt=""
-              />
+              <img src={fbt02} alt="" />
             </div>
           </div>
         )}
@@ -47,16 +44,10 @@ const HmcFB: React.FC<HmcFBProps> = ({ windowWidth }) => {
         {windowWidth > 1051 && (
           <div className="bu_info_img_box_pc">
             <div className="bu_info_img1">
-              <img
-                src="https://hmcnetworks.co.kr/img/img_mainser_01.c19a47a4.png"
-                alt=""
-              />
+              <img src={fbt01} alt="" />
             </div>
             <div className="bu_info_img2">
-              <img
-                src="https://hmcnetworks.co.kr/img/img_sub03.a4e7dcc0.png"
-                alt=""
-              />
+              <img src={fbt02} alt="" />
             </div>
           </div>
         )}

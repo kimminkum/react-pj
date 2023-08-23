@@ -1,5 +1,8 @@
 import Customers from "../components/Customers";
 
+import payt01 from "../image/payt01.png";
+import payt02 from "../image/payt02.png";
+
 interface HmcPaymentProps {
   windowWidth: number;
 }
@@ -20,16 +23,10 @@ const HmcPayment: React.FC<HmcPaymentProps> = ({ windowWidth }) => {
         {windowWidth < 1050 && (
           <div className="bu_info_img_box_mb">
             <div className="bu_info_img1">
-              <img
-                src="https://hmcnetworks.co.kr/img/img_sub08.29750bd0.png"
-                alt=""
-              />
+              <img src={payt01} alt="" />
             </div>
             <div className="bu_info_img2">
-              <img
-                src="https://hmcnetworks.co.kr/img/img_sub09.3b7da522.png"
-                alt=""
-              />
+              <img src={payt02} alt="" />
             </div>
           </div>
         )}
@@ -37,16 +34,10 @@ const HmcPayment: React.FC<HmcPaymentProps> = ({ windowWidth }) => {
         {windowWidth > 1051 && (
           <div className="bu_info_img_box_pc">
             <div className="bu_info_img1">
-              <img
-                src="https://hmcnetworks.co.kr/img/img_sub08.29750bd0.png"
-                alt=""
-              />
+              <img src={payt01} alt="" />
             </div>
             <div className="bu_info_img2">
-              <img
-                src="https://hmcnetworks.co.kr/img/img_sub09.3b7da522.png"
-                alt=""
-              />
+              <img src={payt02} alt="" />
             </div>
           </div>
         )}

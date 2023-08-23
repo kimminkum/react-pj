@@ -1,5 +1,8 @@
 import Customers from "../components/Customers";
 
+import medit01 from "../image/medit01.png";
+import medit02 from "../image/medit02.png";
+
 interface HmcMedicalProps {
   windowWidth: number;
 }
@@ -21,16 +24,10 @@ const HmcMedical: React.FC<HmcMedicalProps> = ({ windowWidth }) => {
         {windowWidth < 1050 && (
           <div className="bu_info_img_box_mb">
             <div className="bu_info_img1">
-              <img
-                src="https://hmcnetworks.co.kr/img/img_sub04.314555a0.png"
-                alt=""
-              />
+              <img src={medit01} alt="" />
             </div>
             <div className="bu_info_img2">
-              <img
-                src="https://hmcnetworks.co.kr/img/img_sub05.355f1930.png"
-                alt=""
-              />
+              <img src={medit02} alt="" />
             </div>
           </div>
         )}
@@ -38,16 +35,10 @@ const HmcMedical: React.FC<HmcMedicalProps> = ({ windowWidth }) => {
         {windowWidth > 1051 && (
           <div className="bu_info_img_box_pc">
             <div className="bu_info_img1">
-              <img
-                src="https://hmcnetworks.co.kr/img/img_sub04.314555a0.png"
-                alt=""
-              />
+              <img src={medit01} alt="" />
             </div>
             <div className="bu_info_img2">
-              <img
-                src="https://hmcnetworks.co.kr/img/img_sub05.355f1930.png"
-                alt=""
-              />
+              <img src={medit02} alt="" />
             </div>
           </div>
         )}

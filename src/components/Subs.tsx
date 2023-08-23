@@ -1,3 +1,6 @@
+import sbt01 from "../image/sbt01.png";
+import sbt02 from "../image/sbt02.png";
+
 interface SubsProps {
   windowWidth: number;
 }
@@ -18,16 +21,10 @@ const Subs: React.FC<SubsProps> = ({ windowWidth }) => {
         {windowWidth < 1050 && (
           <div className="bu_info_img_box_mb">
             <div className="bu_info_img1">
-              <img
-                src="https://hmcnetworks.co.kr/img/img_sub10.fb7f6c6e.png"
-                alt=""
-              />
+              <img src={sbt01} alt="" />
             </div>
             <div className="bu_info_img2">
-              <img
-                src="https://hmcnetworks.co.kr/img/img_sub11.cbc57988.png"
-                alt=""
-              />
+              <img src={sbt02} alt="" />
             </div>
           </div>
         )}
@@ -35,16 +32,10 @@ const Subs: React.FC<SubsProps> = ({ windowWidth }) => {
         {windowWidth > 1051 && (
           <div className="bu_info_img_box_pc">
             <div className="bu_info_img1">
-              <img
-                src="https://hmcnetworks.co.kr/img/img_sub10.fb7f6c6e.png"
-                alt=""
-              />
+              <img src={sbt01} alt="" />
             </div>
             <div className="bu_info_img2">
-              <img
-                src="https://hmcnetworks.co.kr/img/img_sub11.cbc57988.png"
-                alt=""
-              />
+              <img src={sbt02} alt="" />
             </div>
           </div>
         )}

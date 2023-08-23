@@ -14,6 +14,21 @@ import "swiper/css/scrollbar";
 import MainSectionPc from "../components/MainSectionPc";
 import MainSectionMb from "../components/MainSectionMb";
 
+import main01 from "../image/main01.png";
+import mainm01 from "../image/mainm01.jpg";
+import main02 from "../image/main02.jpg";
+import mainm02 from "../image/mainm02.jpg";
+import main03 from "../image/main03.jpg";
+import mainm03 from "../image/mainm03.jpg";
+import main04 from "../image/main04.jpg";
+import mainm04 from "../image/mainm04.jpg";
+import main05 from "../image/main05.jpg";
+import mainm05 from "../image/mainm05.jpg";
+import main06 from "../image/main06.jpg";
+import mainm06 from "../image/mainm06.jpg";
+import main07 from "../image/main07.jpg";
+import mainm07 from "../image/mainm07.jpg";
+
 interface MainProps {
   windowWidth: number;
 }
@@ -39,20 +54,10 @@ const Main: React.FC<MainProps> = ({ windowWidth }) => {
               {/* img */}
               <div className="img_box">
                 {/* pc */}
-                {windowWidth > 769 && (
-                  <img
-                    src="https://hmcnetworks.co.kr/img/bg_main_01.bba41750.jpg"
-                    alt=""
-                  />
-                )}
+                {windowWidth > 769 && <img src={main01} alt="" />}
 
                 {/* mb */}
-                {windowWidth < 768 && (
-                  <img
-                    src="https://hmcnetworks.co.kr/img/bg_main_m01.c7b45578.jpg"
-                    alt=""
-                  />
-                )}
+                {windowWidth < 768 && <img src={mainm01} alt="" />}
               </div>
 
               {/* txt button */}
@@ -89,20 +94,10 @@ const Main: React.FC<MainProps> = ({ windowWidth }) => {
               {/* img */}
               <div className="img_box">
                 {/* pc */}
-                {windowWidth > 769 && (
-                  <img
-                    src="https://hmcnetworks.co.kr/img/bg_main_02.bd47f48f.jpg"
-                    alt=""
-                  />
-                )}
+                {windowWidth > 769 && <img src={main02} alt="" />}
 
                 {/* mb */}
-                {windowWidth < 768 && (
-                  <img
-                    src="https://hmcnetworks.co.kr/img/bg_main_m02.ed88ed49.jpg"
-                    alt=""
-                  />
-                )}
+                {windowWidth < 768 && <img src={mainm02} alt="" />}
               </div>
 
               {/* txt button */}
@@ -139,20 +134,10 @@ const Main: React.FC<MainProps> = ({ windowWidth }) => {
               {/* img */}
               <div className="img_box">
                 {/* pc */}
-                {windowWidth > 769 && (
-                  <img
-                    src="https://hmcnetworks.co.kr/img/bg_main_03.7231785b.jpg"
-                    alt=""
-                  />
-                )}
+                {windowWidth > 769 && <img src={main03} alt="" />}
 
                 {/* mb */}
-                {windowWidth < 768 && (
-                  <img
-                    src="https://hmcnetworks.co.kr/img/bg_main_m03.734b4617.jpg"
-                    alt=""
-                  />
-                )}
+                {windowWidth < 768 && <img src={mainm03} alt="" />}
               </div>
 
               {/* txt button */}
@@ -189,20 +174,10 @@ const Main: React.FC<MainProps> = ({ windowWidth }) => {
               {/* img */}
               <div className="img_box">
                 {/* pc */}
-                {windowWidth > 769 && (
-                  <img
-                    src="https://hmcnetworks.co.kr/img/bg_main_04.944b1a50.jpg"
-                    alt=""
-                  />
-                )}
+                {windowWidth > 769 && <img src={main04} alt="" />}
 
                 {/* mb */}
-                {windowWidth < 768 && (
-                  <img
-                    src="https://hmcnetworks.co.kr/img/bg_main_m04.9c4e7a32.jpg"
-                    alt=""
-                  />
-                )}
+                {windowWidth < 768 && <img src={mainm04} alt="" />}
               </div>
 
               {/* txt button */}
@@ -239,46 +214,36 @@ const Main: React.FC<MainProps> = ({ windowWidth }) => {
               {/* img */}
               <div className="img_box">
                 {/* pc */}
-                {windowWidth > 769 && (
-                  <img
-                    src="https://hmcnetworks.co.kr/img/bg_main_04.944b1a50.jpg"
-                    alt=""
-                  />
-                )}
+                {windowWidth > 769 && <img src={main05} alt="" />}
 
                 {/* mb */}
-                {windowWidth < 768 && (
-                  <img
-                    src="https://hmcnetworks.co.kr/img/bg_main_m04.9c4e7a32.jpg"
-                    alt=""
-                  />
-                )}
+                {windowWidth < 768 && <img src={mainm05} alt="" />}
               </div>
 
               {/* txt button */}
               {windowWidth > 769 && (
                 <div className="txt_box">
-                  <h1>HMC LAB.</h1>
+                  <h1 className="black_txt">HMC LAB.</h1>
                   <hr />
-                  <h4>
+                  <h4 className="black_txt">
                     환자의 의료 정보 및 이동을 기반으로 한 개인 맞춤형 연결
                     플랫폼으로 환자와 간병인, 의료기관을 연결하는 앱 서비스,
                     케어네이션을 개발합니다.
                   </h4>
-                  <button className="img_button">
+                  <button className="img_button black_txt">
                     <FontAwesomeIcon icon={faArrowRight} />
                   </button>
                 </div>
               )}
               {windowWidth < 768 && (
                 <div className="txt_box_mb">
-                  <h2>HMC LAB.</h2>
-                  <p>
+                  <h2 className="black_txt">HMC LAB.</h2>
+                  <p className="black_txt">
                     환자의 의료 정보 및 이동을 기반으로 한 개인 맞춤형 연결
                     플랫폼으로 환자와 간병인, 의료기관을 연결하는 앱 서비스,
                     케어네이션을 개발합니다.
                   </p>
-                  <button className="img_button_m">
+                  <button className="img_button_m black_txt">
                     <span>Deatail view</span>
                     <FontAwesomeIcon icon={faArrowRight} />
                   </button>
@@ -291,20 +256,10 @@ const Main: React.FC<MainProps> = ({ windowWidth }) => {
               {/* img */}
               <div className="img_box">
                 {/* pc */}
-                {windowWidth > 769 && (
-                  <img
-                    src="https://hmcnetworks.co.kr/img/bg_main_04.944b1a50.jpg"
-                    alt=""
-                  />
-                )}
+                {windowWidth > 769 && <img src={main06} alt="" />}
 
                 {/* mb */}
-                {windowWidth < 768 && (
-                  <img
-                    src="https://hmcnetworks.co.kr/img/bg_main_m04.9c4e7a32.jpg"
-                    alt=""
-                  />
-                )}
+                {windowWidth < 768 && <img src={mainm06} alt="" />}
               </div>
 
               {/* txt button */}
@@ -341,20 +296,10 @@ const Main: React.FC<MainProps> = ({ windowWidth }) => {
               {/* img */}
               <div className="img_box">
                 {/* pc */}
-                {windowWidth > 769 && (
-                  <img
-                    src="https://hmcnetworks.co.kr/img/bg_main_04.944b1a50.jpg"
-                    alt=""
-                  />
-                )}
+                {windowWidth > 769 && <img src={main07} alt="" />}
 
                 {/* mb */}
-                {windowWidth < 768 && (
-                  <img
-                    src="https://hmcnetworks.co.kr/img/bg_main_m04.9c4e7a32.jpg"
-                    alt=""
-                  />
-                )}
+                {windowWidth < 768 && <img src={mainm07} alt="" />}
               </div>
 
               {/* txt button */}

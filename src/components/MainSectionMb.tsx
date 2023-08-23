@@ -4,6 +4,13 @@ import "swiper/css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
+import mains01 from "../image/mains01.jpg";
+import mains02 from "../image/mains02.jpg";
+import mains03 from "../image/mains03.jpg";
+import mains04 from "../image/mains04.png";
+import mains05 from "../image/mains05.jpg";
+import mains06 from "../image/mains06.png";
+
 const MainSectionMb: React.FC = () => {
   return (
     <div>
@@ -28,10 +35,7 @@ const MainSectionMb: React.FC = () => {
                 <SwiperSlide>
                   <div className="section_box">
                     <div className="second_img_box mb">
-                      <img
-                        src="https://hmcnetworks.co.kr/img/img_mainser_02.403ea325.jpg"
-                        alt="의약품 사진"
-                      />
+                      <img src={mains01} alt="의약품 사진" />
                     </div>
 
                     <div className="second_txt_box">
@@ -50,10 +54,7 @@ const MainSectionMb: React.FC = () => {
                 <SwiperSlide>
                   <div className="section_box">
                     <div className="second_img_box mb2">
-                      <img
-                        src="https://hmcnetworks.co.kr/img/img_mainser_04.76e33c3d.jpg"
-                        alt="핸드폰 앱 사진"
-                      />
+                      <img src={mains02} alt="핸드폰 앱 사진" />
                     </div>
 
                     <div className="second_txt_box">
@@ -73,10 +74,7 @@ const MainSectionMb: React.FC = () => {
                 <SwiperSlide>
                   <div className="section_box">
                     <div className="second_img_box mb">
-                      <img
-                        src="https://hmcnetworks.co.kr/img/img_mainser_06.ce4f8fa3.jpg"
-                        alt="손 모으는 사진"
-                      />
+                      <img src={mains03} alt="손 모으는 사진" />
                     </div>
 
                     <div className="second_txt_box">
@@ -95,10 +93,7 @@ const MainSectionMb: React.FC = () => {
                 <SwiperSlide>
                   <div className="section_box">
                     <div className="second_img_box mb2">
-                      <img
-                        src="https://hmcnetworks.co.kr/img/img_mainser_01.c19a47a4.png"
-                        alt="건강한 식품 사진"
-                      />
+                      <img src={mains04} alt="건강한 식품 사진" />
                     </div>
 
                     <div className="second_txt_box">
@@ -117,10 +112,7 @@ const MainSectionMb: React.FC = () => {
                 <SwiperSlide>
                   <div className="section_box">
                     <div className="second_img_box mb">
-                      <img
-                        src="https://hmcnetworks.co.kr/img/img_mainser_03.c73f8c7c.jpg"
-                        alt="사진"
-                      />
+                      <img src={mains05} alt="사진" />
                     </div>
 
                     <div className="second_txt_box">
@@ -140,10 +132,7 @@ const MainSectionMb: React.FC = () => {
                 <SwiperSlide>
                   <div className="section_box">
                     <div className="second_img_box mb2">
-                      <img
-                        src="https://hmcnetworks.co.kr/img/img_mainser_05.0cc6b059.jpg"
-                        alt="손쉬운 결제 사진"
-                      />
+                      <img src={mains06} alt="손쉬운 결제 사진" />
                     </div>
 
                     <div className="second_txt_box">
