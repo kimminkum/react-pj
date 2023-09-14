@@ -10,6 +10,7 @@ import Customers from "../components/Customers";
 
 import fbt01 from "../image/fbt01.png";
 import fbt02 from "../image/fbt02.png";
+import sb from "../image/sbt01.png";
 
 interface HmcFBProps {
   windowWidth: number;
